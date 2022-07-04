@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HoldObjects:
   - {fileID: 919132149155446097, guid: 580832270fb9b4e4e8242fde98c22d00, type: 3}
+  - {fileID: 919132149155446097, guid: 2f886b82687839c4caf1e78c2997015d, type: 3}
+  - {fileID: 919132149155446097, guid: 36e22ae2535d5624d935dc0f81530825, type: 3}
+  - {fileID: 919132149155446097, guid: 981a6d0cdbfb7a74a85baacd4888821f, type: 3}
