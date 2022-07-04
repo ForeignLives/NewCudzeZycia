@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ec0786325d216740863b1e6926545b6
+guid: 0809efdae1a17524396d3df6359ccf1b
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -8,12 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Content-Material
-    second: {fileID: 2100000, guid: 4aed5433ffc1f6c4ca22c5c363d89e9b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Siedlisko_szczurow-Material
-    second: {fileID: 2100000, guid: f20a5b180ba2ca44596cc86e96d32d18, type: 2}
+    second: {fileID: 2100000, guid: 9ab6c8b13c6ea134aac88cb5fd805f1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
