@@ -9,10 +9,10 @@ public class QuestManager : MonoBehaviour
 
     private SaveGameSingleton saveGameInstance;
 
-    void Start()
+    private void Awake()
     {
         saveGameInstance = FindObjectOfType<SaveGameSingleton>();
-        if(saveGameInstance == null)
+        if (saveGameInstance == null)
         {
             Debug.LogError("Nie znaleziono SaveGameSingleton");
         }
