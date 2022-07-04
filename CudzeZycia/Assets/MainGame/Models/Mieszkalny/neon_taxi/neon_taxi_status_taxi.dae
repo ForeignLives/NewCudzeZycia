@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2022-01-04T22:56:29Z</created>
+    <modified>2022-01-04T22:56:29Z</modified>
+    <revision>1.0</revision>
+  </asset>
+  <library_images>
+    <image id="Content-diffuse-tex" name="Content-diffuse-tex">
+      <init_from>Content_diffuse.png</init_from>
+    </image>
+    <image id="Content-emissive-tex" name="Content-emissive-tex">
+      <init_from>Content_emissive.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Content-Effect">
+      <profile_COMMON>
+        <newparam sid="Content-diffuse-surface">
+          <surface type="2D">
+            <init_from>Content-diffuse-tex</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Content-emissive-surface">
+          <surface type="2D">
+            <init_from>Content-emissive-tex</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Content-diffuse-sampler">
+          <sampler2D>
+            <source>Content-diffuse-surface</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="Content-emissive-sampler">
+          <sampler2D>
+            <source>Content-emissive-surface</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="phong1">
+          <phong>
+            <emission>
+              <texture texcoord="Content-tex-bind" texture="Content-emissive-sampler"/>
+            </emission>
+            <ambient>
+              <color>1.0 1.0 1.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="Content-tex-bind" texture="Content-diffuse-sampler"/>
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1.0</color>
+            </specular>
+            <shininess>
+              <float>5.0</float>
+            </shininess>
+            <reflective>
+              <color>1.0 1.0 1.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.2</float>
+            </reflectivity>
+            <transparent>
+              <color>1.0 1.0 1.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Content-Material">
+      <instance_effect url="#Content-Effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Content-Geom" name="Content-Geom">
+      <mesh>
+        <source id="Content-Pos">
+          <float_array count="168" id="Content-Pos-array">-2.0 -18.5 -9.0 -2.0 18.5 -9.0 -2.0 18.5 -11.0 -2.0 -18.5 -11.0 -2.0 -18.5 11.0 -2.0 18.5 11.0 -2.0 18.5 9.000001 -2.0 -18.5 9.000001 -2.0 -18.5 9.000001 -2.0 -17.5 9.000001 -2.0 -17.5 -9.0 -2.0 -18.5 -9.0 -2.0 17.5 9.000001 -2.0 18.5 9.000001 -2.0 18.5 -9.0 -2.0 17.5 -9.0 -1.0 -17.5 9.000001 -1.0 17.5 9.000001 -1.0 17.5 -9.0 -1.0 -17.5 -9.0 2.0 -18.5 -11.0 2.0 18.5 -11.0 2.0 18.5 11.0 2.0 -18.5 11.0 -2.0 -18.5 -11.0 2.0 -18.5 -11.0 2.0 -18.5 11.0 -2.0 -18.5 11.0 -2.0 17.5 -9.0 -1.0 17.5 -9.0 -1.0 17.5 9.000001 -2.0 17.5 9.000001 -2.0 -17.5 9.000001 -1.0 -17.5 9.000001 -1.0 -17.5 -9.0 -2.0 -17.5 -9.0 -2.0 18.5 11.0 2.0 18.5 11.0 2.0 18.5 -11.0 -2.0 18.5 -11.0 -2.0 18.5 -11.0 2.0 18.5 -11.0 2.0 -18.5 -11.0 -2.0 -18.5 -11.0 -2.0 17.5 9.000001 -1.0 17.5 9.000001 -1.0 -17.5 9.000001 -2.0 -17.5 9.000001 -2.0 -17.5 -9.0 -1.0 -17.5 -9.0 -1.0 17.5 -9.0 -2.0 17.5 -9.0 -2.0 -18.5 11.0 2.0 -18.5 11.0 2.0 18.5 11.0 -2.0 18.5 11.0 </float_array>
+          <technique_common>
+            <accessor count="56" source="#Content-Pos-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Content-UV">
+          <float_array count="112" id="Content-UV-array">0.0859375 0.421875 0.0859375 1.0 0.0703125 1.0 0.0703125 0.421875 0.0859375 0.421875 0.0859375 1.0 0.0703125 1.0 0.0703125 0.421875 0.0 0.71875 0.0078125 0.71875 0.0078125 1.0 0.0 1.0 0.0 0.71875 0.0078125 0.71875 0.0078125 1.0 0.0 1.0 0.4453125 0.453125 0.4453125 1.0 0.3046875 1.0 0.3046875 0.453125 0.0703125 0.421875 0.0703125 1.0 0.2421875 1.0 0.2421875 0.421875 0.0234375 1.0 0.0546875 1.0 0.0546875 0.65625 0.0234375 0.65625 0.0 1.0 0.0078125 1.0 0.0078125 0.71875 0.0 0.71875 0.0 0.71875 0.0078125 0.71875 0.0078125 1.0 0.0 1.0 0.0234375 0.65625 0.0546875 0.65625 0.0546875 1.0 0.0234375 1.0 0.0703125 0.421875 0.1015625 0.421875 0.1015625 1.0 0.0703125 1.0 0.0703125 0.453125 0.078125 0.453125 0.078125 1.0 0.0703125 1.0 0.0703125 1.0 0.078125 1.0 0.078125 0.453125 0.0703125 0.453125 0.0703125 1.0 0.1015625 1.0 0.1015625 0.421875 0.0703125 0.421875 </float_array>
+          <technique_common>
+            <accessor count="56" source="#Content-UV-array" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Content-Normal">
+          <float_array count="18" id="Content-Normal-array">-1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor count="6" source="#Content-Normal-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Content-Vertices">
+          <input semantic="POSITION" source="#Content-Pos"/>
+        </vertices>
+        <polylist count="14" material="Content-Material">
+          <input offset="0" semantic="VERTEX" source="#Content-Vertices"/>
+          <input offset="1" semantic="TEXCOORD" set="0" source="#Content-UV"/>
+          <input offset="2" semantic="NORMAL" source="#Content-Normal"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 1 21 21 1 22 22 1 23 23 1 24 24 2 25 25 2 26 26 2 27 27 2 28 28 2 29 29 2 30 30 2 31 31 2 32 32 3 33 33 3 34 34 3 35 35 3 36 36 3 37 37 3 38 38 3 39 39 3 40 40 4 41 41 4 42 42 4 43 43 4 44 44 4 45 45 4 46 46 4 47 47 4 48 48 5 49 49 5 50 50 5 51 51 5 52 52 5 53 53 5 54 54 5 55 55 5 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations/>
+  <library_visual_scenes>
+    <visual_scene id="DefaultScene">
+      <node id="Content" name="Content">
+        <translate>0 0 0</translate>
+        <rotate>0 0 1 0</rotate>
+        <rotate>0 1 0 0</rotate>
+        <rotate>1 0 0 0</rotate>
+        <scale>1 1 1</scale>
+        <instance_geometry url="#Content-Geom">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Content-Material" target="#Content-Material">
+                <bind_vertex_input input_semantic="TEXCOORD" input_set="0" semantic="Content-tex-bind"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#DefaultScene"/>
+  </scene>
+</COLLADA>

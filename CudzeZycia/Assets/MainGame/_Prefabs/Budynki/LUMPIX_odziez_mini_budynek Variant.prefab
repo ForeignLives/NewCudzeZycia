@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5028208865056416953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2432939686252827447, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.417656
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939686252827447, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.227257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687004351530, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687004351530, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 104.65926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000019073486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.686438
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06963029
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99757284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -172.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458966, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432939687504458967, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_Name
+      value: LUMPIX_odziez_mini_budynek
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758789832423242370, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.235825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758789832423242370, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.4636765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541369742114143703, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.955078
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541369742114143703, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.099983
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7bbdd2c1363c39b4aa8fe47153e1c3d6, type: 3}

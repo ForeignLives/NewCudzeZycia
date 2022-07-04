@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2022-04-15T20:13:12Z</created>
+    <modified>2022-04-15T20:13:12Z</modified>
+    <revision>1.0</revision>
+  </asset>
+  <library_images>
+    <image id="Dokument_medyczny-diffuse-tex" name="Dokument_medyczny-diffuse-tex">
+      <init_from>Dokument_medyczny_diffuse.png</init_from>
+    </image>
+    <image id="Dokument_medyczny-emissive-tex" name="Dokument_medyczny-emissive-tex">
+      <init_from>Dokument_medyczny_emissive.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Dokument_medyczny-Effect">
+      <profile_COMMON>
+        <newparam sid="Dokument_medyczny-diffuse-surface">
+          <surface type="2D">
+            <init_from>Dokument_medyczny-diffuse-tex</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Dokument_medyczny-emissive-surface">
+          <surface type="2D">
+            <init_from>Dokument_medyczny-emissive-tex</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Dokument_medyczny-diffuse-sampler">
+          <sampler2D>
+            <source>Dokument_medyczny-diffuse-surface</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="Dokument_medyczny-emissive-sampler">
+          <sampler2D>
+            <source>Dokument_medyczny-emissive-surface</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="phong1">
+          <phong>
+            <emission>
+              <texture texcoord="Dokument_medyczny-tex-bind" texture="Dokument_medyczny-emissive-sampler"/>
+            </emission>
+            <ambient>
+              <color>1.0 1.0 1.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="Dokument_medyczny-tex-bind" texture="Dokument_medyczny-diffuse-sampler"/>
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1.0</color>
+            </specular>
+            <shininess>
+              <float>5.0</float>
+            </shininess>
+            <reflective>
+              <color>1.0 1.0 1.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.2</float>
+            </reflectivity>
+            <transparent>
+              <color>1.0 1.0 1.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Dokument_medyczny-Material">
+      <instance_effect url="#Dokument_medyczny-Effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Dokument_medyczny-Geom" name="Dokument_medyczny-Geom">
+      <mesh>
+        <source id="Dokument_medyczny-Pos">
+          <float_array count="72" id="Dokument_medyczny-Pos-array">-1.0 -29.0 20.0 -1.0 29.0 20.0 -1.0 29.0 -20.0 -1.0 -29.0 -20.0 1.0 -29.0 -20.0 1.0 29.0 -20.0 1.0 29.0 20.0 1.0 -29.0 20.0 -1.0 -29.0 -20.0 1.0 -29.0 -20.0 1.0 -29.0 20.0 -1.0 -29.0 20.0 -1.0 29.0 20.0 1.0 29.0 20.0 1.0 29.0 -20.0 -1.0 29.0 -20.0 -1.0 29.0 -20.0 1.0 29.0 -20.0 1.0 -29.0 -20.0 -1.0 -29.0 -20.0 -1.0 -29.0 20.0 1.0 -29.0 20.0 1.0 29.0 20.0 -1.0 29.0 20.0 </float_array>
+          <technique_common>
+            <accessor count="24" source="#Dokument_medyczny-Pos-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dokument_medyczny-UV">
+          <float_array count="48" id="Dokument_medyczny-UV-array">0.375 0.09375 0.375 1.0 0.0625 1.0 0.0625 0.09375 0.46875 0.09375 0.46875 1.0 0.78125 1.0 0.78125 0.09375 0.0 1.0 0.015625 1.0 0.015625 0.375 0.0 0.375 0.0 0.375 0.015625 0.375 0.015625 1.0 0.0 1.0 0.03125 0.09375 0.046875 0.09375 0.046875 1.0 0.03125 1.0 0.03125 1.0 0.046875 1.0 0.046875 0.09375 0.03125 0.09375 </float_array>
+          <technique_common>
+            <accessor count="24" source="#Dokument_medyczny-UV-array" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dokument_medyczny-Normal">
+          <float_array count="18" id="Dokument_medyczny-Normal-array">-1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor count="6" source="#Dokument_medyczny-Normal-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Dokument_medyczny-Vertices">
+          <input semantic="POSITION" source="#Dokument_medyczny-Pos"/>
+        </vertices>
+        <polylist count="6" material="Dokument_medyczny-Material">
+          <input offset="0" semantic="VERTEX" source="#Dokument_medyczny-Vertices"/>
+          <input offset="1" semantic="TEXCOORD" set="0" source="#Dokument_medyczny-UV"/>
+          <input offset="2" semantic="NORMAL" source="#Dokument_medyczny-Normal"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 1 5 5 1 6 6 1 7 7 1 8 8 2 9 9 2 10 10 2 11 11 2 12 12 3 13 13 3 14 14 3 15 15 3 16 16 4 17 17 4 18 18 4 19 19 4 20 20 5 21 21 5 22 22 5 23 23 5 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations/>
+  <library_visual_scenes>
+    <visual_scene id="DefaultScene">
+      <node id="Dokument_medyczny" name="Dokument_medyczny">
+        <translate>0 0 0</translate>
+        <rotate>0 0 1 0</rotate>
+        <rotate>0 1 0 0</rotate>
+        <rotate>1 0 0 0</rotate>
+        <scale>1 1 1</scale>
+        <instance_geometry url="#Dokument_medyczny-Geom">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Dokument_medyczny-Material" target="#Dokument_medyczny-Material">
+                <bind_vertex_input input_semantic="TEXCOORD" input_set="0" semantic="Dokument_medyczny-tex-bind"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#DefaultScene"/>
+  </scene>
+</COLLADA>

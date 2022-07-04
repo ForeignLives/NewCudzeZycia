@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e2b17b0fb5793408dfb773e05d5e47, type: 3}
+  m_Name: DialogAvatarManager
+  m_EditorClassIdentifier: 
+  Data:
+  - Type: 0
+    Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
+    Name: FoxyDebug
+  - Type: 3
+    Avatar: {fileID: 21300000, guid: 217dc6d78d2c452499fd3176f1c68430, type: 3}
+    Name: Lektor
+  - Type: 1
+    Avatar: {fileID: 21300000, guid: 51044dea29014934fbe2a3c2996077eb, type: 3}
+    Name: Skylar
+  - Type: 2
+    Avatar: {fileID: 21300000, guid: 602fb2b83e3f65f4c902c3328ccdca02, type: 3}
+    Name: Faint
+  - Type: 4
+    Avatar: {fileID: 21300000, guid: 611f166b1e411d54b88a93b814b8c285, type: 3}
+    Name: Grey
+  - Type: 10
+    Avatar: {fileID: 21300000, guid: ff834ee0324fdc349a69e4f23c969f9d, type: 3}
+    Name: Ryan
+  - Type: 11
+    Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
+    Name: Opiekunka
+  - Type: 12
+    Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
+    Name: Armen
+  - Type: 13
+    Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
+    Name: Erica
+  - Type: 8
+    Avatar: {fileID: 21300000, guid: 6b6cb0c4b7538ab43af7d9b6f781de43, type: 3}
+    Name: Ash
+  - Type: 14
+    Avatar: {fileID: 21300000, guid: 883639201a49f574caf96dc3e995d62b, type: 3}
+    Name: Ash
+  - Type: 15
+    Avatar: {fileID: 21300000, guid: 983c0e071af894f48989cb5273601510, type: 3}
+    Name: Jack
+  - Type: 16
+    Avatar: {fileID: 21300000, guid: fddccc4143d95004491a42f0585a032a, type: 3}
+    Name: Rick
+  - Type: 17
+    Avatar: {fileID: 21300000, guid: acc2f03fa09ab4a4c9706b1765250874, type: 3}
+    Name: Sky
+  - Type: 9
+    Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
+    Name: Szef

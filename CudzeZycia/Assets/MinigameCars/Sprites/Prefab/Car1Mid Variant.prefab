@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5718065797066377859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7170795893437649140, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: Dead
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f9d76c62d86660488713a50d0c9a486, type: 2}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 43.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148232, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148233, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148235, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: SC
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f9d76c62d86660488713a50d0c9a486, type: 2}
+    - target: {fileID: 559769911079148235, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: isCar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148244, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559769911079148245, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+      propertyPath: m_Name
+      value: Car1Mid Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+--- !u!1 &5232643247400079446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 559769911079148245, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+  m_PrefabInstance: {fileID: 5718065797066377859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1861987636694560818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232643247400079446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84ec5d218443ff84681fbe0d103162ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dead: {fileID: 0}
