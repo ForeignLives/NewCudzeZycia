@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544484764}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.8, y: -1.7, z: 0.73333585}
+  m_LocalPosition: {x: -2.8, y: -9, z: 0.73333585}
   m_LocalScale: {x: 6.6666675, y: 6.6666703, z: 6.6666703}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42,13 +42,13 @@ Light:
   m_GameObject: {fileID: 1544484764}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.45503736, g: 0.7264151, b: 0.66290116, a: 1}
-  m_Intensity: 257.5075
+  m_Intensity: 86.83563
   m_Range: 8
-  m_SpotAngle: 142
-  m_InnerSpotAngle: 21.80208
+  m_SpotAngle: 162
+  m_InnerSpotAngle: 18
   m_CookieSize: 10
   m_Shadows:
     m_Type: 1
@@ -84,13 +84,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 0.5, y: 0.5}
+  m_AreaSize: {x: 5, y: 2}
   m_BounceIntensity: 0
   m_ColorTemperature: 4735
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 8}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.1
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Intensity: 1091.2087
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
-  m_InnerSpotPercent: 63
+  m_InnerSpotPercent: 63.6
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -120,13 +120,13 @@ MonoBehaviour:
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
-  m_ShapeWidth: 0.5
-  m_ShapeHeight: 0.5
+  m_ShapeWidth: 5
+  m_ShapeHeight: 2
   m_AspectRatio: 1
   m_ShapeRadius: 0.1
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
-  m_CustomSpotLightShadowCone: 30
+  m_CustomSpotLightShadowCone: 18
   m_MaxSmoothness: 0.99
   m_ApplyRangeAttenuation: 1
   m_DisplayAreaLightEmissiveMesh: 0
@@ -300,6 +300,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69740a13d823be547b045e947100ded0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69740a13d823be547b045e947100ded0, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 69740a13d823be547b045e947100ded0, type: 3}
       propertyPath: m_Name

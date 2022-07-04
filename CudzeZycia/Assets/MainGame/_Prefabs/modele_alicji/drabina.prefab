@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 125
   m_IsActive: 1
 --- !u!4 &4250909131654436932
 Transform:
@@ -86,6 +86,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af8775b243e5ece499a5f76d1aba9cb7, type: 3}
       propertyPath: m_Name
       value: Drabina
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af8775b243e5ece499a5f76d1aba9cb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af8775b243e5ece499a5f76d1aba9cb7, type: 3}
