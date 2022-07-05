@@ -911,7 +911,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -447812257281311871}
+        node: {fileID: -2112187370445912289}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -971,6 +971,9 @@ MonoBehaviour:
       - fieldName: Output
         node: {fileID: -2072178880878503481}
         reroutePoints: []
+      - fieldName: Output
+        node: {fileID: -2642774383143341109}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -1005,7 +1008,8 @@ MonoBehaviour:
     a jutro na przyk\u0142ad p\xF3jd\u0119 pieszo na Arktyk\u0119 i zaczn\u0119 tam,
     ot cho\u0107by, sadzi\u0107 ziemniaki. "
   Answers:
-  - Message: "Arktyce? Chcesz sadzi\u0107 ziemniaki na skutej lodem powierzchni?"
+  - Message: "Wiesz mo\u017Ce w jaki spos\xF3b mogliby\u015Bmy si\u0119 wydosta\u0107
+      z kana\u0142\xF3w?"
     Type: 1
   - Message: "Arktyce? Chcesz sadzi\u0107 ziemniaki na skutej lodem powierzchni?"
     Type: 2
@@ -1327,9 +1331,6 @@ MonoBehaviour:
       connections:
       - fieldName: Answers 0
         node: {fileID: -2112187370445912289}
-        reroutePoints: []
-      - fieldName: Output
-        node: {fileID: -2642774383143341109}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
