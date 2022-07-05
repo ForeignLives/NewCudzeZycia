@@ -7,7 +7,7 @@ public class GenerateRandomNumbers : MonoBehaviour
     public float BootsColor, BootsColorMultiply, ChestColor, ChestColorMultiply, PantsColor, PantsColorMultiply, HairColor, HairColorMultiply = 0f;
     public ObjectHolder BootsGenerator, ChestGenerator, Pants1Generator, Pants2Generator, Arm1Generator, Arm2Generator, HeadGenerator, HairGenerator;
     public int BootsNumber, ChestNumber, Pants1Number, Pants2Number, Arm1Number, Arm2Number, HeadNumber, HairNumber;
-    void Start()
+    void Awake()
     {
         BootsColor = Random.Range(0.0f, 1.0f);
         BootsColorMultiply = Random.Range(0.5f, 1.0f);
