@@ -136,8 +136,8 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Przygl\u0105dasz si\u0119 pustej ulicy, na kt\xF3rej zauwa\u017Casz
-    dw\xF3jk\u0119 nastolatk\xF3w, rozmawiaj\u0105cych ze sob\u0105. Ich twarze zbyt
-    s\u0105 odleg\u0142e by\u015B by\u0142 w stanie zauwa\u017Cy\u0107 detale.\r"
+    dw\xF3jk\u0119 nastolatk\xF3w, rozmawiaj\u0105cych ze sob\u0105. Ich twarze s\u0105
+    zbyt odleg\u0142e by\u015B by\u0142 w stanie zauwa\u017Cy\u0107 detale.\r"
 --- !u!114 &-5047131367826718418
 MonoBehaviour:
   m_ObjectHideFlags: 0

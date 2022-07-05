@@ -46,8 +46,8 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Faint za\u015Bmia\u0142 si\u0119. By\u0142 to sztuczny, wyuczony \u015Bmiech
-    osoby, kt\xF3ra musia\u0142a zaakceptowa\u0107 swoje rozdanie i po prostu i\u015B\u0107
-    naprz\xF3d. "
+    osoby, kt\xF3ra raczej by\u0142a przymuszona do zaakceptowania swojej roli w
+    spo\u0142ecze\u0144stwie. "
 --- !u!114 &-7904558068546891909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -734,7 +734,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 2
   AvatarPosition: 2
-  DialogText: "Tak czy inaczej, jest tam na pewno bezpieczniej ni\u017C tutaj"
+  DialogText: "Tak czy inaczej, jest tam na pewno bezpieczniej ni\u017C tutaj."
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1058,8 +1058,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 2
   AvatarPosition: 2
-  DialogText: "A, no i na ko\u0144cu masz oczywi\u015Bcie szczyt tego \u015Bmierdzido\u0142ka.
-    Sektor A"
+  DialogText: "A, no i na ko\u0144cu masz oczywi\u015Bcie szczyt tego \u015Bmierdzido\u0142ka,
+    Sektor A."
 --- !u!114 &2991458674371560977
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -514,7 +514,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 9
-  AvatarPosition: 1
+  AvatarPosition: 2
   DialogText: "Nie ma mowy. W\u0142adza za bardzo mnie okrada w podatkach. \r"
 --- !u!114 &-2476179334077342683
 MonoBehaviour:
@@ -929,7 +929,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 8
-  AvatarPosition: 1
+  AvatarPosition: 2
   DialogText: "Jeste\u015B przecie\u017C pierwsz\u0105 rann\u0105 osob\u0105 w tym
     mie\u015Bcie. "
 --- !u!114 &7710690854211736109

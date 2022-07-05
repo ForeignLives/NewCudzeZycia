@@ -44,7 +44,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 8
-  AvatarPosition: 1
+  AvatarPosition: 2
   DialogText: "Uzna\u0142, \u017Ce najlepiej dla mnie b\u0119dzie jak m\xF3j ojciec
     kopnie w kalendarz."
 --- !u!114 &-7875190082539601913
@@ -600,7 +600,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 1
-  AvatarPosition: 2
+  AvatarPosition: 1
   DialogText: "Po co im w og\xF3le leki twojego ojca?"
 --- !u!114 &-1513769078531790367
 MonoBehaviour:
@@ -1088,7 +1088,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 8
-  AvatarPosition: 1
+  AvatarPosition: 2
   DialogText: 'To wszystko wina Ricka. '
 --- !u!114 &7898497723539805383
 MonoBehaviour:
@@ -1180,7 +1180,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   AvatarName: 8
-  AvatarPosition: 1
+  AvatarPosition: 2
   DialogText: Leki dla mojego ojca.
 --- !u!114 &8005449296726617543
 MonoBehaviour:

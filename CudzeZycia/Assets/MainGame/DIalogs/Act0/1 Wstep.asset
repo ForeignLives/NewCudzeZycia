@@ -1213,7 +1213,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 2
   AvatarPosition: 2
-  DialogText: "Chcia\u0142by\u015B. Wyd\u0142uba\u0142em si\u0119 z ca\u0142ej kasy,
+  DialogText: "Chcia\u0142by\u015B. Wyp\u0142uka\u0142em si\u0119 z ca\u0142ej kasy,
     aby to op\u0142aci\u0107."
 --- !u!114 &-509511627797776860
 MonoBehaviour:
@@ -1923,7 +1923,7 @@ MonoBehaviour:
     decyzja Faint\u2019a wcale nie by\u0142a \u0142atwa, a jego rodzicielka \u201Cniezbyt
     trafna ze s\u0142owami\u201D. \r"
   Answers:
-  - Message: "B\u0119dzie dobrze kiedy\u015B na pewno"
+  - Message: "B\u0119dzie dobrze, kiedy\u015B na pewno"
     Type: 2
   - Message: "[Wr\xF3\u0107 do wyboru]]"
     Type: 3
@@ -2911,8 +2911,7 @@ MonoBehaviour:
       _dynamic: 1
   AvatarName: 4
   AvatarPosition: 1
-  DialogText: "W\u0142a\u015Bciwie to\u2026 co si\u0119 sta\u0142o? No wiesz przed
-    tym\u2026 wszystkim."
+  DialogText: 
   Answers:
   - Message: "W\u0142a\u015Bciwie to\u2026 co si\u0119 sta\u0142o? No wiesz przed
       tym\u2026 wszystkim. "

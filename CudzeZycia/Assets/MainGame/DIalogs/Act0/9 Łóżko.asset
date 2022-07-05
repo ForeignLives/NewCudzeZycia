@@ -326,8 +326,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 4
-  AvatarPosition: 1
+  AvatarName: 2
+  AvatarPosition: 2
   DialogText: 'Stary, masz pralnie pod mieszkaniem. '
 --- !u!114 &2464790515722773211
 MonoBehaviour:
