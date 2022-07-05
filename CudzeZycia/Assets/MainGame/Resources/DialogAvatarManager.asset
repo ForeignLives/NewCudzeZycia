@@ -58,3 +58,9 @@ MonoBehaviour:
   - Type: 9
     Avatar: {fileID: 21300000, guid: 9ddac3aee672ae243b1423fe0f84c408, type: 3}
     Name: Szef
+  - Type: 5
+    Avatar: {fileID: 21300000, guid: fddccc4143d95004491a42f0585a032a, type: 3}
+    Name: Zbir Rick
+  - Type: 7
+    Avatar: {fileID: 21300000, guid: 983c0e071af894f48989cb5273601510, type: 3}
+    Name: Zbir Jack
