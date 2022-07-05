@@ -931,6 +931,15 @@ MonoBehaviour:
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+  - ContentType: 1
+    videoClip: {fileID: 0}
+    dialogGraph: {fileID: 11400000, guid: 289c9da256326284cb243784305432f3, type: 2}
+    newObjective: Biegnij z Ash na zaplecze
+    targetGameObject: {fileID: 1358274773}
+    newActiveState: 1
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
     dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}

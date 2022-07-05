@@ -1519,9 +1519,9 @@ MonoBehaviour:
   DialogText: "Zd\u0105\u017Cy\u0142em zauwa\u017Cy\u0107! "
   Answers:
   - Message: "[Poddaj si\u0119.]"
-    Type: 0
+    Type: 2
   - Message: '[Zaufaj Ash]'
-    Type: 0
+    Type: 2
 --- !u!114 &-7336075927640244396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1968,9 +1968,9 @@ MonoBehaviour:
     rozegra\u0107.</i>"
   Answers:
   - Message: "Skup si\u0119 na defensywie"
-    Type: 0
+    Type: 2
   - Message: "Skup si\u0119 na ofensywie."
-    Type: 0
+    Type: 2
 --- !u!114 &-6840173389026541339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,9 +2231,9 @@ MonoBehaviour:
     rozegra\u0107.</i>"
   Answers:
   - Message: "Skup si\u0119 na defensywie"
-    Type: 0
+    Type: 2
   - Message: "Skup si\u0119 na ofensywie."
-    Type: 0
+    Type: 2
 --- !u!114 &-6360079109215317234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3468,9 +3468,9 @@ MonoBehaviour:
   DialogText: "Zd\u0105\u017Cy\u0142em zauwa\u017Cy\u0107! "
   Answers:
   - Message: "[Poddaj si\u0119.]"
-    Type: 0
+    Type: 2
   - Message: '[Zaufaj Ash]'
-    Type: 0
+    Type: 2
 --- !u!114 &-4903892701171879218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6777,11 +6777,11 @@ MonoBehaviour:
     zm\u0119cz\u0105.</i>"
   Answers:
   - Message: Wykonaj unik i zaatakuj
-    Type: 0
+    Type: 2
   - Message: "Skup si\u0119 na defensywie, czekaj\u0105c na okazj\u0119 do kontrataku"
-    Type: 0
+    Type: 2
   - Message: Zaatakuj pierwsza
-    Type: 0
+    Type: 2
 --- !u!114 &-833586939834396433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8031,9 +8031,9 @@ MonoBehaviour:
     \u017Ale.</i>"
   Answers:
   - Message: 'Zaatakuj pierwsza. '
-    Type: 0
+    Type: 2
   - Message: "Przygotuj si\u0119 do natychmiastowego skontrowania"
-    Type: 0
+    Type: 2
 --- !u!114 &208660653359943071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8572,9 +8572,9 @@ MonoBehaviour:
   DialogText: "Zd\u0105\u017Cy\u0142em zauwa\u017Cy\u0107! "
   Answers:
   - Message: "[Poddaj si\u0119.]"
-    Type: 0
+    Type: 2
   - Message: '[Zaufaj Ash]'
-    Type: 0
+    Type: 2
 --- !u!114 &892235803120816694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8925,9 +8925,9 @@ MonoBehaviour:
     agresj\u0119.</i>"
   Answers:
   - Message: "Znajd\u017A bro\u0144"
-    Type: 0
+    Type: 2
   - Message: Zadrwij z niego
-    Type: 0
+    Type: 2
 --- !u!114 &1295084992384134711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9185,9 +9185,9 @@ MonoBehaviour:
   DialogText: "Musz\u0119 si\u0119 bardzo dok\u0142adnie zastanowi\u0107 jak to rozegra\u0107."
   Answers:
   - Message: "Skup si\u0119 na defensywie"
-    Type: 0
+    Type: 2
   - Message: "Skup si\u0119 na ofensywie."
-    Type: 0
+    Type: 2
 --- !u!114 &1494295703233961660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10471,9 +10471,9 @@ MonoBehaviour:
     agresj\u0119.</i>"
   Answers:
   - Message: "Znajd\u017A bro\u0144"
-    Type: 0
+    Type: 2
   - Message: Zadrwij z niego
-    Type: 0
+    Type: 2
 --- !u!114 &2520313783364008274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12134,9 +12134,9 @@ MonoBehaviour:
     rozegra\u0107.<i>"
   Answers:
   - Message: "Skup si\u0119 na defensywie"
-    Type: 0
+    Type: 2
   - Message: "Skup si\u0119 na ofensywie."
-    Type: 0
+    Type: 2
 --- !u!114 &4359523489825615453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12210,9 +12210,9 @@ MonoBehaviour:
     \u017Ale.</i>"
   Answers:
   - Message: 'Zaatakuj pierwsza. '
-    Type: 0
+    Type: 2
   - Message: "Przygotuj si\u0119 do natychmiastowego skontrowania"
-    Type: 0
+    Type: 2
 --- !u!114 &4433306218082782406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12983,9 +12983,9 @@ MonoBehaviour:
   DialogText: "Zd\u0105\u017Cy\u0142em zauwa\u017Cy\u0107! "
   Answers:
   - Message: "[Poddaj si\u0119.]"
-    Type: 0
+    Type: 2
   - Message: '[Zaufaj Ash]'
-    Type: 0
+    Type: 2
 --- !u!114 &5810280875107309993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14266,9 +14266,9 @@ MonoBehaviour:
     \u017Ale.</i>"
   Answers:
   - Message: 'Zaatakuj pierwsza. '
-    Type: 0
+    Type: 2
   - Message: "Przygotuj si\u0119 do natychmiastowego skontrowania"
-    Type: 0
+    Type: 2
 --- !u!114 &7425606647767363496
 MonoBehaviour:
   m_ObjectHideFlags: 0
