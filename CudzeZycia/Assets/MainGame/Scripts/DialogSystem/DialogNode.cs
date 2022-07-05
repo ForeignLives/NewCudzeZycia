@@ -47,6 +47,20 @@ namespace Scripts.DialogSystem
                 return null;
             }
         }
+
+        public virtual DialogNode GetPreviousDialog()
+        {
+            var input = GetInputPort("input");
+            if (input.IsConnected)
+            {
+                var node = input.Connection.node;
+                return node as DialogNode;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 
 }
