@@ -14,14 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HoldObjects:
   - {fileID: 919132149155446097, guid: 6bc111d9e1d5bc448867604dd801fb1e, type: 3}
-  - {fileID: 919132149155446097, guid: 5d5a0e78e7bb4184cb5e8e79131c227c, type: 3}
-  - {fileID: 919132149155446097, guid: eac62b92591a857448596c3df592fcc0, type: 3}
-  - {fileID: 919132149155446097, guid: 058feeccd4fb23f45a1ccbf4e5e6899e, type: 3}
-  - {fileID: 919132149155446097, guid: c179e51a8c4725b4fb064e989942ad1c, type: 3}
-  - {fileID: 919132149155446097, guid: 2b753a936634cd04cabc74d3518e40a6, type: 3}
-  - {fileID: 919132149155446097, guid: 8c51182047bda7246bd3edc478bed413, type: 3}
-  - {fileID: 919132149155446097, guid: a9ebf44324771c646885d0f433889954, type: 3}
-  - {fileID: 919132149155446097, guid: 195967c738b7f5d40b30fea6d23b0347, type: 3}
-  - {fileID: 919132149155446097, guid: 06922411abc71f14396b9fef604fb5bb, type: 3}
-  - {fileID: 919132149155446097, guid: aa1f30ee2d95d4d40ae6d087f04039b2, type: 3}
-  - {fileID: 919132149155446097, guid: 1f1ad016c3aac0b4590fd3beb217bc0a, type: 3}
+  - {fileID: 919132149155446097, guid: ff1421f281e70e64082b47070b69072d, type: 3}
+  - {fileID: 919132149155446097, guid: 0251f75fa2331e741bc388caebeed1ae, type: 3}
+  - {fileID: 919132149155446097, guid: e230db21ea5d0cf40b3c9a8adc9fde9f, type: 3}
