@@ -10,6 +10,8 @@ TagManager:
   - Breaker
   - Pause
   - Spawner
+  - JumpscarePosition
+  - JumpscareScreen
   layers:
   - Default
   - TransparentFX
