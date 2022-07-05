@@ -3124,7 +3124,6 @@ Transform:
   - {fileID: 349833040}
   - {fileID: 767234664}
   - {fileID: 827850794}
-  - {fileID: 1461653407}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3413,15 +3412,15 @@ MonoBehaviour:
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
-  - ContentType: 3
+  - ContentType: 4
     videoClip: {fileID: 0}
-    dialogGraph: {fileID: 11400000, guid: 484c900b061b2154bafe0ccbfbc8af5f, type: 2}
+    dialogGraph: {fileID: 0}
     newObjective: 
-    targetGameObject: {fileID: 1461653406}
-    newActiveState: 1
-    sceneToLoad: 
-    playerPosition: {x: 0, y: 0, z: 0}
-    playerStorage: {fileID: 0}
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    sceneToLoad: MainMap
+    playerPosition: {x: -71.955, y: 0.706, z: 138.7}
+    playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
   isComplete: 0
 --- !u!114 &827850797
 MonoBehaviour:
@@ -3435,7 +3434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1796f3dc38e334ca54f2b0a067111d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 89df8b9e-c5cb-40e5-bd4b-e2c1a5fa40c2
+  _id: 9adf6ea8-96f5-4ada-9497-4ae00fac8410
 --- !u!1001 &842040427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10076,89 +10075,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7384629920592543019, guid: 731d7e7c0c38f514581c93bbc40921d0, type: 3}
   m_PrefabInstance: {fileID: 1457165055}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1461653406
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1461653407}
-  - component: {fileID: 1461653410}
-  - component: {fileID: 1461653409}
-  - component: {fileID: 1461653408}
-  m_Layer: 0
-  m_Name: "CT- Teleport do A1 (Zau\u0142ek w mie\u015Bcie)"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1461653407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461653406}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54, y: 1.415, z: -0.87}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 700945099}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1461653408
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461653406}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 16.3, y: 4.21, z: 13.93}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1461653409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461653406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ba344dfb78690845b8b4f79aca5bfb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scenarioList:
-  - ContentType: 4
-    videoClip: {fileID: 0}
-    dialogGraph: {fileID: 0}
-    newObjective: 
-    targetGameObject: {fileID: 0}
-    newActiveState: 0
-    sceneToLoad: MainMap
-    playerPosition: {x: -71.955, y: 0.706, z: 138.7}
-    playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
-  isComplete: 0
---- !u!114 &1461653410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461653406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d1796f3dc38e334ca54f2b0a067111d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _id: 31e60292-ebc8-41f3-9f0b-efce8ec10ca7
 --- !u!1001 &1469895813
 PrefabInstance:
   m_ObjectHideFlags: 0

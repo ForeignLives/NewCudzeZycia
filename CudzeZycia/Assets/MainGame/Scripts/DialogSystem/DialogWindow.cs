@@ -30,7 +30,7 @@ namespace Scripts.DialogSystem
         public Sprite btnBgSecondary;
         public Sprite btnBgGray;
 
-        private XNode.Node activeSegment;
+        private DialogNode activeSegment;
         private DialogAvatarManager dialogAvatarManager;
         private bool dialogIsActive = false;
         private bool skipAll = false;
@@ -46,6 +46,34 @@ namespace Scripts.DialogSystem
         private void Awake()
         {
             dialogAvatarManager = DialogAvatarManager.GetResourceDialogAvatarManager(); // informacje o avatarach (tekstury imiona itd)
+        }
+
+        private void Update()
+        {
+            // wait for click e
+            if (dialogIsActive)
+            {
+                if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.I))
+                {
+                    // only forward simple dialog
+                    if (activeSegment.GetType() == typeof(SimpleDialog)) {
+                        PlayNextDialogById(0);
+                    }
+                }
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    // dont go back when you see question dialog
+                    if (activeSegment.GetType() != typeof(DialogQuestion))
+                    {
+                        var prevSegment = activeSegment.GetPreviousDialog();
+                        // move back only to simple dialog (cant move back to question dialog)
+                        if (prevSegment != null && prevSegment.GetType() == typeof(SimpleDialog)) {
+                            UpdateDialog(prevSegment);
+                        }                        
+                    }
+                }
+            }
         }
 
         public void OpenDialog(DialogGraph dialogGraph)
@@ -181,6 +209,8 @@ namespace Scripts.DialogSystem
             }
             else
             {
+                // nie umieszczaj przycisku "dalej" na œrdoku ekranu 
+                /*
                 // zwyk³e pojedyncze wyjscie
                 var btn = Instantiate(buttonPrefab, buttonParent);
                 var imageComponent = btn.GetComponent<Image>();
@@ -196,8 +226,18 @@ namespace Scripts.DialogSystem
                     else
                         CloseDialog();
                 }));
+                */
             }
             
+        }
+
+        private void PlayNextDialogById(int answerId)
+        {
+            var nextDialog = activeSegment.GetNextDialog(answerId);
+            if (nextDialog != null)
+                UpdateDialog(nextDialog);
+            else
+                CloseDialog();
         }
 
 

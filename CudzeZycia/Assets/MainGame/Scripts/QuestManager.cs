@@ -16,7 +16,6 @@ public class QuestManager : MonoBehaviour
         {
             Debug.LogError("Nie znaleziono SaveGameSingleton");
         }
-        UpdateCurrentQuestText(currentQuest);
     }
 
     public void UpdateCurrentQuestText(string text)
