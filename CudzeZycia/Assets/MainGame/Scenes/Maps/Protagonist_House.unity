@@ -199,6 +199,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3175267282261800686, guid: 17613d8c7eee7904cb3dfdb431b9aa57, type: 3}
   m_PrefabInstance: {fileID: 3175267282238418307}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &65139560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65139562}
+  - component: {fileID: 65139561}
+  m_Layer: 0
+  m_Name: PlayMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &65139561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65139560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d16aac8f5167aa45b73a88bbcd3e819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Mieszkanie
+  isAmbientOrBackgroundSong: 1
+--- !u!4 &65139562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65139560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &69465322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7519648189837510288, guid: 836d0c9fa6c86fd45895123600b63846, type: 3}
@@ -3406,6 +3452,15 @@ MonoBehaviour:
   - ContentType: 2
     videoClip: {fileID: 0}
     dialogGraph: {fileID: 11400000, guid: 484c900b061b2154bafe0ccbfbc8af5f, type: 2}
+    newObjective: 
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+  - ContentType: 0
+    videoClip: {fileID: 32900000, guid: 1f453d303b80c124b9e8f4fcb32e92e6, type: 3}
+    dialogGraph: {fileID: 0}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0

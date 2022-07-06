@@ -12,6 +12,10 @@ public class AllSongNames : MonoBehaviour
             "CityNight",
             "Restaurant",
             "MenuClick",
+            "FightMusic",
+            "Tajemniczy",
+            "Dramatyczna",
+            "Mieszkanie",
         };
         return x.ToArray();
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.021159217, g: 0.026068047, b: 0.03665188, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6736,6 +6736,89 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &864463678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864463679}
+  - component: {fileID: 864463682}
+  - component: {fileID: 864463681}
+  - component: {fileID: 864463680}
+  m_Layer: 0
+  m_Name: CT - Koniec gry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864463679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864463678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.02, y: 0.59, z: 101.14}
+  m_LocalScale: {x: 2.7766, y: 2.7766, z: 2.7766}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1593790614}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &864463680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864463678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba344dfb78690845b8b4f79aca5bfb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenarioList:
+  - ContentType: 1
+    videoClip: {fileID: 0}
+    dialogGraph: {fileID: 11400000, guid: a755782cb57a5df41a8ab5dfd79f38dc, type: 2}
+    newObjective: 
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+  isComplete: 0
+--- !u!114 &864463681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864463678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1796f3dc38e334ca54f2b0a067111d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: fda2db17-9063-42af-a0dd-069f48eb1b7e
+--- !u!65 &864463682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864463678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!43 &869932898
 Mesh:
   m_ObjectHideFlags: 0
@@ -8395,9 +8478,9 @@ MonoBehaviour:
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
   - ContentType: 0
-    videoClip: {fileID: 32900000, guid: 1f453d303b80c124b9e8f4fcb32e92e6, type: 3}
-    dialogGraph: {fileID: 11400000, guid: 647fd6639f0a3f445b00dba957b0ac7f, type: 2}
-    newObjective: 'TODO: tutaj wstaw cutscenke'
+    videoClip: {fileID: 32900000, guid: a19816611d1df67499eef495590a86c6, type: 3}
+    dialogGraph: {fileID: 11400000, guid: 298784dbdcfb03a4ebca3519188b0697, type: 2}
+    newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
     sceneToLoad: 
@@ -23783,6 +23866,7 @@ Transform:
   m_Children:
   - {fileID: 1035792191}
   - {fileID: 1906462380}
+  - {fileID: 864463679}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -18,7 +18,7 @@ MonoBehaviour:
     Name: FoxyDebug
   - Type: 3
     Avatar: {fileID: 21300000, guid: 217dc6d78d2c452499fd3176f1c68430, type: 3}
-    Name: Lektor
+    Name: Narrator
   - Type: 1
     Avatar: {fileID: 21300000, guid: 51044dea29014934fbe2a3c2996077eb, type: 3}
     Name: Skylar

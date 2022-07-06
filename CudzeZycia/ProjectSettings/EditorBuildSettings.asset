@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainGame/Scenes/Maps/sewers.unity
     guid: 908c0f9f452409742b336c5e0f721aad
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Maps/hobo base.unity
+    guid: 75c5e9c2130704d42af12f9599e42562
   m_configObjects: {}
