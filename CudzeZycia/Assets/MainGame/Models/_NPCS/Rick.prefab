@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 10550950005145113}
   - component: {fileID: 3711391195573633285}
+  - component: {fileID: 4116031879438998363}
   m_Layer: 0
   m_Name: Rick
   m_TagString: Untagged
@@ -119,7 +120,7 @@ Animator:
   m_GameObject: {fileID: 823785606015952035}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ae9a62244f9bf63489ee6cc00bea0054, type: 2}
+  m_Controller: {fileID: 9100000, guid: 12fb0de83049ce34aa4ee6f8ead74b40, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -129,6 +130,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &4116031879438998363
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823785606015952035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.2
+  m_Height: 8.951611
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.9758024, z: 0}
 --- !u!1 &854029368655638861
 GameObject:
   m_ObjectHideFlags: 0

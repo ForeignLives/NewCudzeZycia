@@ -1017,6 +1017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3950418735738140453}
   - component: {fileID: 3443524055866161337}
+  - component: {fileID: 700371374989402558}
   m_Layer: 0
   m_Name: Zbir3
   m_TagString: Untagged
@@ -1072,6 +1073,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &700371374989402558
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438689152766602655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.2
+  m_Height: 8.951611
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.9758024, z: 0}
 --- !u!1 &5115642962402067522
 GameObject:
   m_ObjectHideFlags: 0
