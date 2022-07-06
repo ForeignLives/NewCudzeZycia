@@ -14155,9 +14155,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 517597089}
     m_Modifications:
+    - target: {fileID: 7304461551554640204, guid: 19376e3734b744740ba6c33a8954968b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     - target: {fileID: 7611013849275853918, guid: 19376e3734b744740ba6c33a8954968b, type: 3}
       propertyPath: m_Name
       value: "okienko_odzielaj\u0105ce_pelne"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611013849275853918, guid: 19376e3734b744740ba6c33a8954968b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 7611013849275853919, guid: 19376e3734b744740ba6c33a8954968b, type: 3}
       propertyPath: m_RootOrder
@@ -14301,6 +14309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "okienko_odzielaj\u0105ce_otwarte"
       objectReference: {fileID: 0}
+    - target: {fileID: 8359814925926028770, guid: e276bd9389fc9fb419387185988927ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     - target: {fileID: 8359814925926028773, guid: e276bd9389fc9fb419387185988927ef, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -14355,7 +14367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8702483574245323267, guid: e276bd9389fc9fb419387185988927ef, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e276bd9389fc9fb419387185988927ef, type: 3}

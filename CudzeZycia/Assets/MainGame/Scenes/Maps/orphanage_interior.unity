@@ -5,11 +5,11 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 1
+    smallestOccluder: 0.5
     smallestHole: 0.15
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: ae705021f14e87c4194b81bcd8928949
+  m_OcclusionCullingData: {fileID: 36300000, guid: 7389f7ae8d5e10f458ab7aeef763da00, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -387,6 +387,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -1291,6 +1299,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &515701536 stripped
@@ -1664,6 +1680,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &583712807 stripped
@@ -1729,6 +1753,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -1997,6 +2029,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -3789,6 +3829,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &1261284791 stripped
@@ -4044,6 +4092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dzwi_sier_2
       objectReference: {fileID: 0}
+    - target: {fileID: 63052437925736944, guid: a0d8cb8fc1ec73f48bea066ae369682d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     - target: {fileID: 63052437925736945, guid: a0d8cb8fc1ec73f48bea066ae369682d, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -4090,7 +4142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 874094195048862675, guid: a0d8cb8fc1ec73f48bea066ae369682d, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 1666776589795455494, guid: a0d8cb8fc1ec73f48bea066ae369682d, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -4227,6 +4279,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -4488,6 +4548,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &1540858724 stripped
@@ -4553,6 +4621,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -4862,6 +4938,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &1777920730 stripped
@@ -4963,6 +5047,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -12402,6 +12494,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &2004529572 stripped
@@ -12601,6 +12701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lozko_dla_dzieci (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
 --- !u!4 &2068238454 stripped
@@ -12666,6 +12774,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
@@ -12793,6 +12909,14 @@ PrefabInstance:
     - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
       propertyPath: m_Name
       value: lozko_dla_dzieci
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650593772780967577, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497101927970873525, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca614b425358b54b8c9e853489da9fe, type: 3}

@@ -5,11 +5,11 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
+    smallestOccluder: 0.5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: fd8ef38c9d0bb0b459b78aec81efab6f
+  m_OcclusionCullingData: {fileID: 36300000, guid: bf9580db2a6191f4f82317f15ddbe17f, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
