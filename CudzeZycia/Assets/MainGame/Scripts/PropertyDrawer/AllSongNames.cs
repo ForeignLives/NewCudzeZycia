@@ -16,6 +16,7 @@ public class AllSongNames : MonoBehaviour
             "Tajemniczy",
             "Dramatyczna",
             "Mieszkanie",
+            "MinigamePixel",
         };
         return x.ToArray();
     }

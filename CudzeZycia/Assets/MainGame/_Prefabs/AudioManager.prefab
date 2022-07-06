@@ -78,8 +78,8 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 24300002, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: FightMusic
     clip: {fileID: 8300000, guid: 6dd56a7d8b3d51f46a6fc31ac92cff0a, type: 3}
@@ -87,8 +87,8 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 24300002, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: Tajemniczy
     clip: {fileID: 8300000, guid: f1ca91c7db4cd0c44b4b9083290afa56, type: 3}
@@ -96,8 +96,8 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 24300002, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: Dramatyczna
     clip: {fileID: 8300000, guid: 22c226fc52b87254e833211d234daab4, type: 3}
@@ -105,15 +105,24 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 24300002, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: Mieszkanie
-    clip: {fileID: 8300000, guid: e68f1d1a3dfd62649806056f714f8a1b, type: 3}
+    clip: {fileID: 8300000, guid: 0623b45eb27dd2746a5f6335b4462eaa, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    source: {fileID: 0}
+  - name: MinigamePixel
+    clip: {fileID: 8300000, guid: ea45e286e6958a843b813c584976c5e7, type: 3}
     volume: 0.3
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 24300002, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}

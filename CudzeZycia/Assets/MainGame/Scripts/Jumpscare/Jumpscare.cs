@@ -18,6 +18,7 @@ public class Jumpscare : MonoBehaviour
     private Animator _LevelLoader;
     private GameObject STAJ;
     private ScreenJumpscare SJ;
+    private AudioSource _Audio;
 
     private void Start()
     {
@@ -33,6 +34,7 @@ public class Jumpscare : MonoBehaviour
         Character = GameObject.Find("Character");
         STAJ = GameObject.Find("StartPositionAfterJumpscare");
         SJ = GameObject.Find("JumpscareScreenBlack").GetComponent<ScreenJumpscare>();
+        _Audio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -58,6 +60,7 @@ public class Jumpscare : MonoBehaviour
             CyclesMove.StartJumpscare = true;
             SJ.IfJumpscare = true;
             StartCoroutine(StartReset());
+            _Audio.Play();
         }
     }
 
