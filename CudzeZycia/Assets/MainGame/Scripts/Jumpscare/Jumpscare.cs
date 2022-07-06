@@ -35,19 +35,26 @@ public class Jumpscare : MonoBehaviour
         SJ = GameObject.Find("JumpscareScreenBlack").GetComponent<ScreenJumpscare>();
     }
 
+    private void Update()
+    {
+        if(agent.isStopped == true)
+        {
+            transform.position = JumpscarePosition.position;
+            transform.rotation = JumpscarePosition.rotation;
+            Camera.main.transform.LookAt(lookat.transform);
+        }
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "MainCharacter")
         {
             agent.isStopped = true;
-            transform.position = JumpscarePosition.position;
-            transform.rotation = JumpscarePosition.rotation;
             Movement.enabled = false;
             CameraMove.enabled = false;
             RG.velocity = Vector3.zero;
             Pause.openIsBlocked = true;
-            Camera.main.transform.LookAt(lookat.transform);
             CyclesMove.StartJumpscare = true;
             SJ.IfJumpscare = true;
             StartCoroutine(StartReset());
