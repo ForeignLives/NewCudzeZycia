@@ -10,7 +10,6 @@ public class ShowObject : MonoBehaviour
     public GameObject _ShowObject;
     private bool isCollide = false;
     private int Many = 0;
-    private pausemenu _pausemenuScript;
     private AudioSource _audio;
 
 
@@ -20,7 +19,6 @@ public class ShowObject : MonoBehaviour
         lockmovement = GameObject.Find("Character").GetComponent<FirstPersonMovement>();
         lockcamera = GameObject.Find("Camera").GetComponent<FirstPersonLook>();
         _outline = transform.Find("outline").gameObject;
-        _pausemenuScript = GameObject.Find("PauseMenu").GetComponent<pausemenu>();
     }
 
     private void OnTriggerStay(Collider other)
@@ -42,11 +40,11 @@ public class ShowObject : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isCollide == true && Many == 0 && !getIsGamePaused())
+        if (Input.GetKeyDown(KeyCode.E) && isCollide == true && Many == 0)
         {
             PrzyblizObiekt();
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && isCollide == true && !getIsGamePaused())
+        else if (Input.GetKeyDown(KeyCode.Escape) && isCollide == true)
         {
             ZamknijObiekt();
         }
@@ -61,7 +59,6 @@ public class ShowObject : MonoBehaviour
         Many = 1;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        _pausemenuScript.openIsBlocked = true;
         _audio.enabled = false;
     }
 
@@ -71,14 +68,10 @@ public class ShowObject : MonoBehaviour
         lockmovement.enabled = true;
         Many = 0;
         Cursor.lockState = CursorLockMode.Locked;
-        _pausemenuScript.openIsBlocked = false;
         Cursor.visible = false;
         _audio.enabled = true;
     }
 
-    private bool getIsGamePaused()
-    {
-        return _pausemenuScript.isGamePaused;
-    }
+
 
 }
