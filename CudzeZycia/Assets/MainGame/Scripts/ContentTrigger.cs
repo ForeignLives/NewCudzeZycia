@@ -15,6 +15,7 @@ public enum ContentTriggerType
     ChangeObjective,
     ChangeGameObjectState,
     TeleportToMap,
+    ShowCanvasAndWaitForKey,
 }
 
 [System.Serializable]
@@ -45,6 +46,9 @@ public class ContentTriggerItem
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.TeleportToMap)]
     public VectorValue playerStorage;
 
+    [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.ShowCanvasAndWaitForKey)]
+    public GameObject showGameObject;
+
 
     public double getVideoDurationSek()
     {
@@ -66,6 +70,8 @@ public class ContentTrigger : MonoBehaviour
     private pausemenu _pausemenuScript;
     private bool wasExecuted = false;
     public bool isComplete = false;
+
+    private GameObject currentShowingGameObject = null; // showGameObject który jest wyœwietlany (to znaczy ¿e spacja ma skipowaæ)
 
 
     void Start()
@@ -103,6 +109,17 @@ public class ContentTrigger : MonoBehaviour
             DebugSkip().ContinueWith(t => Debug.LogError(t.Exception), TaskContinuationOptions.OnlyOnFaulted);
         }
 #endif
+        if(currentShowingGameObject != null)
+        {
+            if (currentShowingGameObject.activeSelf == true)
+            {
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Escape))
+                {
+                    currentShowingGameObject.SetActive(false);
+                    currentShowingGameObject = null;
+                }
+            }
+        }
     }
 
     public string GetUniqueId()
@@ -165,6 +182,10 @@ public class ContentTrigger : MonoBehaviour
             {
                 sceneLoader(e);
             }
+            else if (e.ContentType == ContentTriggerType.ShowCanvasAndWaitForKey)
+            {
+                await waitForCanvas(e.showGameObject);
+            }
             else
             {
                 Debug.LogError("ContentTriggerType" + e.ContentType + " not implemented");
@@ -186,5 +207,15 @@ public class ContentTrigger : MonoBehaviour
         ct.playerStorage.initialValue = ct.playerPosition;
         await Task.Delay(2000);
         SceneManager.LoadScene(ct.sceneToLoad);
+    }
+
+    private async Task waitForCanvas(GameObject go)
+    {
+        currentShowingGameObject = go;
+        currentShowingGameObject.SetActive(true);
+        while (currentShowingGameObject != null)
+        {
+            await Task.Delay(200);
+        }
     }
 }
