@@ -15,8 +15,5 @@ MonoBehaviour:
   HoldObjects:
   - {fileID: 919132149155446097, guid: 9ca3a241a9e58d0438b5e9e907480cd7, type: 3}
   - {fileID: 919132149155446097, guid: 97312c301ec04b149887f1d07f067cbe, type: 3}
-  - {fileID: 919132149155446097, guid: 41283a6fd232e1c4e8f923f6e7d263b2, type: 3}
   - {fileID: 919132149155446097, guid: f65cf282e11a10f44b865dcec49b5c3c, type: 3}
   - {fileID: 919132149155446097, guid: 0f86a29228282184ea85ef60aef13cf6, type: 3}
-  - {fileID: 919132149155446097, guid: eac821e1435fc4d44aa99c774849b220, type: 3}
-  - {fileID: 919132149155446097, guid: c8b15f8de007e3047ac50f7b209c01c3, type: 3}
