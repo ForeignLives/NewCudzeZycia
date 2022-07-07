@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hair
   m_EditorClassIdentifier: 
   HoldObjects:
-  - {fileID: 0}
+  - {fileID: 919132149155446097, guid: 49b345ad5bce90542b34867213bfee5e, type: 3}
