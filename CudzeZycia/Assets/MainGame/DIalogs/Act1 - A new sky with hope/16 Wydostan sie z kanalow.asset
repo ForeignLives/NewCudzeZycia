@@ -40,7 +40,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Dolicz\u0119 do rachunku. Trzymaj si\u0119! "
 --- !u!114 &-7847478488742453060
@@ -86,7 +86,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Jeszcze ci\u0119 widz\u0119 Sky, ale zaraz mog\u0119 przesta\u0107. "
 --- !u!114 &-7413111958120198613
@@ -270,7 +270,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "No to musimy co\u015B wymy\u015Bli\u0107."
 --- !u!114 &-5383626754254102013
@@ -363,7 +363,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "I na pewno nigdy nie powiedzia\u0142e\u015B z\u0142ego s\u0142owa
     o mnie? "
@@ -410,7 +410,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Wydaje mi si\u0119, \u017Ce ca\u0142kiem niedaleko. Id\u017A prosto
     i powiniene\u015B trafi\u0107."
@@ -504,7 +504,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Racja. Powiniene\u015B wraca\u0107 do sieroci\u0144ca. "
 --- !u!114 &-2487528790753267123
@@ -673,7 +673,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Gdyby tylko s\u0142onko \u015Bwieci\u0142o\u2026 "
 --- !u!114 &-304859422992142150
@@ -816,7 +816,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Tak my\u015Bla\u0142am. "
 --- !u!114 &32189660239738459
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Pchaj, nie ci\u0105gnij."
 --- !u!114 &1322441941304488999
@@ -1046,7 +1046,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Wydaje mi si\u0119, \u017Ce ca\u0142kiem niedaleko. Id\u017A prosto
     i powiniene\u015B trafi\u0107."
@@ -1093,7 +1093,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Wybacz, \u017Ce wci\u0105gn\u0119\u0142am ci\u0119 w te bagno. "
 --- !u!114 &1787280484333473562
@@ -1139,7 +1139,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "A i zanim p\xF3jdziesz\u2026 "
 --- !u!114 &2384008805985952295
@@ -1414,7 +1414,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Aaah! Nareszcie na wolno\u015Bci! "
 --- !u!114 &4098602167090559184
@@ -1460,7 +1460,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: 'Ile cyfr?
 
@@ -1555,7 +1555,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Przyjrzyj si\u0119, mo\u017Ce przyciski s\u0105 jako\u015B starte
     czy co\u015B."
@@ -1764,15 +1764,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Tylko wejd\u017A tylnym oknem. Je\u015Bli Jessie zobaczy ci\u0119
     o tej godzinie na korytarzu to po\u017Ca\u0142ujesz znajomo\u015Bci ze mn\u0105. "
   Answers:
   - Message: "Tak jakbym ju\u017C nie \u017Ca\u0142owa\u0142. "
-    Type: 2
+    Type: 1
   - Message: "Ja? Sk\u0105d\u017Ce bym \u015Bmia\u0142. "
-    Type: 2
+    Type: 1
 --- !u!114 &8477558360886140156
 MonoBehaviour:
   m_ObjectHideFlags: 0

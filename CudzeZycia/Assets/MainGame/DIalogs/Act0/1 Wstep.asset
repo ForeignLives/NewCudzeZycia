@@ -1428,9 +1428,9 @@ MonoBehaviour:
   DialogText: " Co ja bym zrobi\u0142 bez ciebie bracie! \r\n"
   Answers:
   - Message: "Uspok\xF3j si\u0119, jestem ca\u0142y w twojej mazi.  "
-    Type: 2
+    Type: 1
   - Message: "Jeste\u015B ohydny. "
-    Type: 2
+    Type: 1
 --- !u!114 &-82034058506436173
 MonoBehaviour:
   m_ObjectHideFlags: 0
