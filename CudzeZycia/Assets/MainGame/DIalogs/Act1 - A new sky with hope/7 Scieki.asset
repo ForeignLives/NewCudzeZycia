@@ -46,7 +46,7 @@ MonoBehaviour:
   AvatarName: 14
   AvatarPosition: 2
   DialogText: "Uzna\u0142, \u017Ce najlepiej dla mnie b\u0119dzie jak m\xF3j ojciec
-    kopnie w kalendarz."
+    kopnie w kalendarz. Wi\u0119c postanowi\u0142 przyspieszy\u0107 proces."
 --- !u!114 &-7875190082539601913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 14
   AvatarPosition: 2
-  DialogText: "To nie tak\u2026"
+  DialogText: "Nie tylko on\u2026"
 --- !u!114 &-6691544164439450355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,8 +464,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Znaczy\u2026 ja mu te\u017C tego \u017Cycz\u0119 z pe\u0142n\u0105
-    premedytacj\u0105."
+  DialogText: "S\u0142uchaj to jest troch\u0119 bardziej skomplikowane, ja te\u017C
+    faceta nienawidz\u0119 z ca\u0142ego serca."
 --- !u!114 &-2575612752834316771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,8 +508,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Chod\u017Amy st\u0105d, nie mam ochoty si\u0119 macza\u0107 w tych
-    bagnach do rana."
+  DialogText: "Chod\u017Amy ju\u017C, nie mam ochoty si\u0119 macza\u0107 w tym szlamie
+    do rana."
 --- !u!114 &-2434957212226255072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,6 +556,54 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Zaciskasz pi\u0119\u015Bci w gniewie. Tw\xF3j oddech przyspiesza si\u0119."
+--- !u!114 &-1627989488766836229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4136, y: 200}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: -1627989488766836229}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6749564619831743711}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -1627989488766836229}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 1554761841433305601}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 3
+  AvatarPosition: 2
+  DialogText: "Cho\u0107 sytuacja dalej nie jest dla ciebie do ko\u0144ca zrozumia\u0142a,
+    to nietrudno by\u0142o zauwa\u017Cy\u0107, \u017Ce owa paczka faktycznie musi
+    wiele znaczy\u0107 dla dziewczyny. \r\n"
 --- !u!114 &-1560680525699280380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,7 +834,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 1
   AvatarPosition: 1
-  DialogText: "Co to w og\xF3le jest?"
+  DialogText: "\u2026.Co w niej w og\xF3le jest? "
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +874,7 @@ MonoBehaviour:
   - {fileID: -7875190082539601913}
   - {fileID: 7898497723539805383}
   - {fileID: -2575612752834316771}
+  - {fileID: -1627989488766836229}
 --- !u!114 &1554761841433305601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,7 +900,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 6749564619831743711}
+        node: {fileID: -1627989488766836229}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -871,9 +920,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Gdy ton Ash spada, tw\xF3j gniew zaczyna gasn\u0105\u0107. Cho\u0107
-    sytuacja dalej nie jest dla ciebie do ko\u0144ca zrozumia\u0142a, to czujesz,
-    \u017Ce owa paczka faktycznie musi wiele znaczy\u0107 dla dziewczyny."
+  DialogText: "Gdy ton Ash spada, tw\xF3j gniew zaczyna gwa\u0142townie przygasa\u0107.
+    \r\n"
 --- !u!114 &4486408522555762407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,7 +1012,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4120, y: 200}
+  position: {x: 4440, y: 200}
   ports:
     keys:
     - Output
@@ -988,7 +1036,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: Output
-        node: {fileID: 1554761841433305601}
+        node: {fileID: -1627989488766836229}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1043,8 +1091,9 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 1
   AvatarPosition: 1
-  DialogText: "W\u0142a\u015Bnie po to ryzykowali\u015Bmy \u017Cycie walcz\u0105c
-    z jakimi\u015B psychopatami?!"
+  DialogText: "Ryzykowali\u015Bmy \u017Cycie walcz\u0105c z jakimi\u015B psychopatami
+    po cholern\u0105 paczk\u0119?! Psycholami z broni\u0105 paln\u0105 chcia\u0142bym
+    podkre\u015Bli\u0107!"
 --- !u!114 &7871355236868426654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,7 +1185,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Nie jestem do ko\u0144ca z tego dumna."
+  DialogText: "Wierz mi, nie jestem do ko\u0144ca z tego dumna."
 --- !u!114 &7984258419474957563
 MonoBehaviour:
   m_ObjectHideFlags: 0
