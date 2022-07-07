@@ -64,3 +64,6 @@ MonoBehaviour:
   - Type: 7
     Avatar: {fileID: 21300000, guid: 983c0e071af894f48989cb5273601510, type: 3}
     Name: Zbir Jack
+  - Type: 6
+    Avatar: {fileID: 21300000, guid: 5ac650b2f8084e948b041c5546852ad4, type: 3}
+    Name: Zbir Paul
