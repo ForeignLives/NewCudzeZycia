@@ -18,13 +18,16 @@ public class MyVideoPlayer : MonoBehaviour
         if (videoTexture.activeSelf){videoTexture.SetActive(false);}
     }
 
-    public async Task PlayVideo(VideoClip videoClip)
+    // volume 1 = 100% 0 = mute
+    public async Task PlayVideo(VideoClip videoClip, float volume=1)
     {
         videoPlayer.Stop();
 
         videoPlayer.clip = videoClip;
+        videoPlayer.SetDirectAudioVolume(0, volume);
         videoTexture.SetActive(true);
         videoPlayer.Play();
+        
 
         Time.timeScale = 0; // pause game
 
