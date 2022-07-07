@@ -78,7 +78,7 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 1
+    loop: 0
     mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: FightMusic
