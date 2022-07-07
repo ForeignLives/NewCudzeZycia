@@ -7,10 +7,11 @@ public class PreloadScript : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         bool isEditor = false;
 #if UNITY_EDITOR
         isEditor = true;
-        DontDestroyOnLoad(gameObject);
+        
         if (LoadingSceneIntegration.otherScene > 0)
         {
             // Debug.Log("Returning again to the scene: " + LoadingSceneIntegration.otherScene);

@@ -9,6 +9,11 @@ public class DebugConsole : MonoBehaviour
     public bool doShow = true;
     public int kChars = 700;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void OnEnable() { Application.logMessageReceived += Log; }
 
     void OnDisable() { Application.logMessageReceived -= Log; }
