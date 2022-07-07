@@ -43,7 +43,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: 'Ale mus to mus. '
 --- !u!114 &-8300854375562002624
@@ -510,7 +510,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: Wal.
 --- !u!114 &-5821875655649225050
@@ -745,7 +745,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Sieroty z p\xF3\u0142nocnego miasta."
 --- !u!114 &-4271593965422147049
@@ -791,7 +791,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Ja na pewno nie chc\u0119. "
 --- !u!114 &-3734765705631551636
@@ -837,7 +837,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: O nie.
 --- !u!114 &-2731868979606587570
@@ -1148,7 +1148,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Po prostu zastanawiam si\u0119 jak mo\u017Cna zgubi\u0107 spodnie
     w interakcji ze szczurem."
@@ -1195,7 +1195,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Ogl\u0105dasz kino b\u0119d\u0105c b\u0142\u0119dnikiem? "
 --- !u!114 &-1207957917927931811
@@ -1961,7 +1961,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Zgubi\u0142 czy kto\u015B mu j\u0105 ukrad\u0142? "
 --- !u!114 &2934038011611135788
@@ -2146,7 +2146,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Niezupe\u0142nie. Odci\u0119li nas od medi\xF3w \u015Bwiatowych, wi\u0119c
     jedyne informacje znajdziesz w darknecie. "
@@ -2426,7 +2426,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Oczywi\u015Bcie je\u015Bli przebrniesz w ca\u0142o\u015Bci przez stos
     mem\xF3w i trolli internetowych. "
@@ -2613,7 +2613,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "B\u0142oto znacznie lepiej wp\u0142ywa na moj\u0105 cer\u0119 ni\u017C
     szlam. "
@@ -2707,7 +2707,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: 'Po prysznicu w bagnie ogra nawet herbata z resztek brzmi jak zbawienie. '
 --- !u!114 &6646650128996201338
@@ -2753,7 +2753,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Chwila, czy to jaki\u015B randomowy tekst wyci\u0105gni\u0119ty z
     darkneta? "
@@ -2800,7 +2800,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Nie, sk\u0105d\u017Ce znowu. "
 --- !u!114 &7266643366482203862
@@ -2846,7 +2846,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Gdzie mamy szuka\u0107? "
 --- !u!114 &7274558894435716234
@@ -3169,7 +3169,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Na dole by\u0142y jakie\u015B zamkni\u0119te drzwi."
 --- !u!114 &7800992034383765365
@@ -3353,6 +3353,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Ju\u017C ca\u0142kowicie stopnia\u0142a? "

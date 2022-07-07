@@ -1,48 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9086602342480976774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
-  m_Name: Simple Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 872, y: 984}
-  ports:
-    keys:
-    - Output
-    - input
-    values:
-    - _fieldName: Output
-      _node: {fileID: -9086602342480976774}
-      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: input
-      _node: {fileID: -9086602342480976774}
-      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: Output
-        node: {fileID: 3860659231496860672}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  AvatarName: 8
-  AvatarPosition: 2
-  DialogText: "Szukasz tej apteczki, czy chcesz choroby zaka\u017Anej dosta\u0107? "
 --- !u!114 &-7548778162989941005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,9 +43,57 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 9
+  AvatarName: 3
   AvatarPosition: 2
-  DialogText: "A ja p\xF3jd\u0119 je przepakowa\u0107."
+  DialogText: "W ten czy inny spos\xF3b."
+--- !u!114 &-7358348217418274212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3336, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: -7358348217418274212}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4420641782512448413}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -7358348217418274212}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -2176323497875309898}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 14
+  AvatarPosition: 2
+  DialogText: "Szef. Nie wiem ile dok\u0142adnie pami\u0119tasz wi\u0119c tak na
+    przypomnienie. Mo\u017Ce wydawa\u0107 si\u0119 troch\u0119 trudny w obyciu, a
+    nawet wredny momentami.\r\n"
 --- !u!114 &-6902705375625269007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,10 +140,7 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Pod wp\u0142ywem mosi\u0119\u017Cnego g\u0142osu stoj\u0105cego za
-    lad\u0105 szefa, twoje cia\u0142o momentalni zni\u017Ca g\u0142ow\u0119 w d\xF3\u0142.
-    Odczuwasz strach, stres, a twoje d\u0142onie zaczynaj\u0105 si\u0119 poci\u0107.
-    Nie jeste\u015B w stanie nad tym panowa\u0107, tak, jakby cia\u0142o w kt\xF3rym
-    jeste\u015B wymusza\u0142o obecn\u0105 sytuacj\u0119. "
+    lad\u0105 szefa, instynktownie uchyli\u0142e\u015B g\u0142ow\u0119."
 --- !u!114 &-6896062480625917854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +154,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1272, y: 72}
+  position: {x: 1288, y: 56}
   ports:
     keys:
     - Output
@@ -184,9 +186,9 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Z torby wyci\u0105ga listy i paczki, kt\xF3re zdo\u0142a\u0142a uratowa\u0107
-    przed zbirami. Nie s\u0105 w najlepszym stanie, cz\u0119\u015Bci z nich jest
-    przemoczona lub zgnieciona. "
+  DialogText: "Podczas kiedy ka\u017Cda kom\xF3rka twojego cia\u0142a by\u0142a zaj\u0119ta
+    panikowaniem, Ash pewnym krokiem podesz\u0142a do lady i usiad\u0142a na wysokim
+    sto\u0142ku barowym, naprzeciw Szefa. \r\n"
 --- !u!114 &-2866567532822701725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,8 +234,54 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Po chwili jednak wychodzi z g\u0142\xF3wnego pokoju poczty, w stron\u0119
-    magazynu, pozostawiaj\u0105c ci\u0119 sam na sam z Ash. "
+  DialogText: "Rzuci\u0142 kolejne spojrzenie na Ash, kt\xF3ra odpowiedzia\u0142a
+    przytakuj\u0105c, po czym wyszed\u0142 w stron\u0119 magazynu."
+--- !u!114 &-2176323497875309898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3048, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: -2176323497875309898}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -7358348217418274212}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -2176323497875309898}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 2785073858893459909}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 3
+  AvatarPosition: 2
+  DialogText: "Ash odpowiedzia\u0142a kiwni\u0119ciem g\u0142owy w stron\u0119 magazynu.\r\n"
 --- !u!114 &-1600293146854326788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +295,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 72}
+  position: {x: 1000, y: 56}
   ports:
     keys:
     - Output
@@ -279,9 +327,55 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Mimo, i\u017C nie jeste\u015B w stanie zatrzyma\u0107 dr\u017Cenia
-    r\u0105k, widzisz jak Ash pewnym krokiem podchodzi do lady i przysiada naprzeciwko
-    szefa na wysokim sto\u0142ku barowym. "
+  DialogText: "Jaki\u015B wewn\u0119trzny g\u0142os radzi\u0142 ci, \u017Ceby\u015B
+    by\u0142 ostro\u017Cny. Odczuwa\u0142e\u015B strach. Twoje r\u0119ce zacz\u0119\u0142y
+    si\u0119 poci\u0107 i lekko trz\u0105\u015B\u0107. \r\n"
+--- !u!114 &-1137083162413173325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2136, y: 72}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: -1137083162413173325}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 443022260024732529}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -1137083162413173325}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 5258284612960182509}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 14
+  AvatarPosition: 2
+  DialogText: 'To robota Ricka. '
 --- !u!114 &-938617919241332769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +419,10 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 3
+  AvatarName: 9
   AvatarPosition: 2
-  DialogText: "Chocia\u017C szef swoj\u0105 mas\u0105 jest lekko przera\u017Caj\u0105cy
-    to wci\u0105\u017C czujesz jakby w miar\u0119 dba\u0142 o pracownik\xF3w. "
+  DialogText: "W mi\u0119dzyczasie ja przepakuj\u0119 paczki, \u017Ceby nie wygl\u0105da\u0142y
+    jakby\u015Bmy je wyci\u0105gneli psu z ryja."
 --- !u!114 &-853727956883995870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,10 +466,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Poszukaj jej, a ja spr\xF3buj\u0119 wyrwa\u0107 troch\u0119 spirytusu
-    z barku Johna."
+  DialogText: "Gdzie\u015B na p\xF3\u0142kach powinna by\u0107 apteczka. "
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,8 +497,62 @@ MonoBehaviour:
   - {fileID: 9215758262657431850}
   - {fileID: -853727956883995870}
   - {fileID: 7077663847761975577}
-  - {fileID: 3860659231496860672}
-  - {fileID: -9086602342480976774}
+  - {fileID: -1137083162413173325}
+  - {fileID: 443022260024732529}
+  - {fileID: 6452442494783104897}
+  - {fileID: 2785073858893459909}
+  - {fileID: -2176323497875309898}
+  - {fileID: -7358348217418274212}
+  - {fileID: 4420641782512448413}
+  - {fileID: 3850829532046685826}
+  - {fileID: 4511181250815177853}
+  - {fileID: 8578278977837011052}
+--- !u!114 &443022260024732529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2424, y: 72}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 443022260024732529}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6452442494783104897}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 443022260024732529}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -1137083162413173325}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 9
+  AvatarPosition: 2
+  DialogText: "Psiama\u0107! Czy temu ma\u0142olatowi nigdy si\u0119 to nie znudzi?!\r\n"
 --- !u!114 &552933868062795290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,7 +596,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1560, y: 88}
+  position: {x: 1576, y: 72}
   ports:
     keys:
     - Output
@@ -479,9 +626,10 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 3
   AvatarPosition: 2
-  DialogText: 'To robota Ricka. '
+  DialogText: "Zacz\u0119\u0142a wyci\u0105ga\u0107 z torby listy i paczki, kt\xF3re
+    zdo\u0142a\u0142a uratowa\u0107 przed zbirami. \r\n"
 --- !u!114 &1775526562165498736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,10 +673,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 9
+  AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Opatrz tego synka, zanim nam si\u0119 rozleci. "
---- !u!114 &3860659231496860672
+  DialogText: "Szef spojrza\u0142 na ciebie. Cho\u0107 jego masywna budowa i mosi\u0119\u017Cny
+    g\u0142os wzbudza\u0142y mieszank\u0119 strachu i respektu, to wci\u0105\u017C
+    odczuwa\u0142e\u015B, \u017Ce zale\u017Ca\u0142o mu na tobie.\r\n"
+--- !u!114 &2785073858893459909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -541,26 +691,26 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 504, y: 936}
+  position: {x: 2776, y: 504}
   ports:
     keys:
     - Output
     - input
     values:
     - _fieldName: Output
-      _node: {fileID: 3860659231496860672}
+      _node: {fileID: 2785073858893459909}
       _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -9086602342480976774}
+        node: {fileID: -2176323497875309898}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: input
-      _node: {fileID: 3860659231496860672}
+      _node: {fileID: 2785073858893459909}
       _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       connections:
@@ -571,10 +721,148 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 1
+  AvatarPosition: 1
+  DialogText: Johna?
+--- !u!114 &3850829532046685826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3912, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 3850829532046685826}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4511181250815177853}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 3850829532046685826}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 4420641782512448413}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Szef. Nie jest kim\u015B mega z\u0142ym. Zwyczajnie nie ma lekko przez
-    kolor sk\xF3ry, wi\u0119c zapija \u017Cale wszystkim co ma wysoki procent. "
+  DialogText: "Postaraj si\u0119 by\u0107 zatem troch\u0119 wyrozumia\u0142y, jasne?"
+--- !u!114 &4420641782512448413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3624, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 4420641782512448413}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 3850829532046685826}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 4420641782512448413}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -7358348217418274212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 14
+  AvatarPosition: 2
+  DialogText: "Ale to dobry cz\u0142owiek. Zwyczajnie nie mia\u0142 lekko. Czystka
+    ostro go przejecha\u0142a. \u201CAlkohol mnie uspokaja\u201D, jak to m\xF3wi."
+--- !u!114 &4511181250815177853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4200, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 4511181250815177853}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8578278977837011052}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 4511181250815177853}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 3850829532046685826}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 3
+  AvatarPosition: 2
+  DialogText: "Odpowiadasz jej przytakuj\u0105c."
 --- !u!114 &5258284612960182509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,7 +876,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1880, y: 72}
+  position: {x: 1848, y: 72}
   ports:
     keys:
     - Output
@@ -600,7 +888,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 6644992376202035618}
+        node: {fileID: -1137083162413173325}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -618,9 +906,58 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 9
+  AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Psiama\u0107. Nigdy si\u0119 temu ma\u0142olatowi nie znudzi. "
+  DialogText: "Nawet z oddali zauwa\u017Cy\u0142e\u015B, \u017Ce nie by\u0142y w
+    najlepszym stanie. Cz\u0119\u015Bci z nich by\u0142a przemoczona lub pognieciona.\r\n"
+--- !u!114 &6452442494783104897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2712, y: 72}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 6452442494783104897}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6644992376202035618}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 6452442494783104897}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 443022260024732529}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 3
+  AvatarPosition: 2
+  DialogText: "Starszy i grubszy m\u0119\u017Cczyzna wyci\u0105gn\u0105\u0142 fajk\u0119
+    ze swoich ust i odstawi\u0142 j\u0105 do popielniczki z wyra\u017Anym zirytowaniem
+    wymalowanym na pomarszczonej twarzy. \r\n"
 --- !u!114 &6644992376202035618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,17 +995,15 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: Output
-        node: {fileID: 5258284612960182509}
+        node: {fileID: 6452442494783104897}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 3
+  AvatarName: 9
   AvatarPosition: 2
-  DialogText: "Starszy i grubszy m\u0119\u017Cczyzna wyjmuje fajk\u0119 ze swoich
-    ust i odstawi\u0105 j\u0105 do popielniczki z wyra\u017Anym zirytowaniem wymalowanym
-    na pomarszczonej twarzy. "
+  DialogText: "Opatrz synka, zanim si\u0119 do ko\u0144ca rozpadnie."
 --- !u!114 &7077663847761975577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,7 +1017,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2472, y: 520}
+  position: {x: 2472, y: 504}
   ports:
     keys:
     - Output
@@ -694,7 +1029,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 3860659231496860672}
+        node: {fileID: 2785073858893459909}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -712,9 +1047,54 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 1
-  AvatarPosition: 1
-  DialogText: 'Kto to John? '
+  AvatarName: 14
+  AvatarPosition: 2
+  DialogText: "Poszukaj jej, a ja spr\xF3buj\u0119 wyrwa\u0107 troch\u0119 spirytusu
+    z barku Johna."
+--- !u!114 &8578278977837011052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4472, y: 504}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 8578278977837011052}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 8578278977837011052}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 4511181250815177853}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 14
+  AvatarPosition: 2
+  DialogText: "No to super, \u017Ce si\u0119 rozumiemy. A teraz le\u0107 znale\u017A\u0107
+    t\u0105 apteczk\u0119, zanim zaka\u017Cenia jeszcze bardziej ci facjate przemebluj\u0105."
 --- !u!114 &9014418534761479417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +1184,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Gdzie\u015B na p\xF3\u0142kach powinna by\u0107 apteczka."
+  DialogText: "Zosta\u0142e\u015B sam z Ash, kt\xF3ra nie marnowa\u0142a czasu i
+    zacz\u0119\u0142a przygl\u0105da\u0107 si\u0119 twoim ranom."

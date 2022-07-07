@@ -43,7 +43,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Uzna\u0142, \u017Ce najlepiej dla mnie b\u0119dzie jak m\xF3j ojciec
     kopnie w kalendarz."
@@ -136,7 +136,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "To nie tak\u2026"
 --- !u!114 &-6691544164439450355
@@ -275,7 +275,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Zniszczy\u0142 mi \u017Cycie, ale... nie jestem w stanie tak po prostu
     odwr\xF3ci\u0107 wzroku i pozwoli\u0107 im go zabi\u0107. To nie w porz\u0105dku..."
@@ -322,7 +322,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Zwyci\u0119\u017Cyli\u015Bmy i to si\u0119 liczy. "
 --- !u!114 &-3871071334163084765
@@ -462,7 +462,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Znaczy\u2026 ja mu te\u017C tego \u017Cycz\u0119 z pe\u0142n\u0105
     premedytacj\u0105."
@@ -506,7 +506,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Chod\u017Amy st\u0105d, nie mam ochoty si\u0119 macza\u0107 w tych
     bagnach do rana."
@@ -645,7 +645,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Okej, jeste\u015Bmy bezpieczni. "
 --- !u!114 &-1497838162698553465
@@ -737,9 +737,10 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
-  DialogText: "Napij si\u0119 szlamu to cho\u0107 na chwile przestaniesz narzeka\u0107."
+  DialogText: "Napij si\u0119 szlamu to mo\u017Ce cho\u0107 na chwile przestaniesz
+    narzeka\u0107. "
 --- !u!114 &-106243756284291001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1088,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: 'To wszystko wina Ricka. '
 --- !u!114 &7898497723539805383
@@ -1133,7 +1134,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: "Nie jestem do ko\u0144ca z tego dumna."
 --- !u!114 &7984258419474957563
@@ -1179,7 +1180,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 8
+  AvatarName: 14
   AvatarPosition: 2
   DialogText: Leki dla mojego ojca.
 --- !u!114 &8005449296726617543
@@ -1228,4 +1229,4 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Ca\u0142y dzie\u0144 l\u0105dowa\u0142e\u015B z deszczu pod rynn\u0119
-    i czu\u0142e\u015B jak zbli\u017Casz si\u0119 do kraw\u0119dzi swoich nerw\xF3w."
+    i czu\u0142e\u015B jak zbli\u017Casz si\u0119 do granic mentalnej wytrwa\u0142o\u015Bci."
