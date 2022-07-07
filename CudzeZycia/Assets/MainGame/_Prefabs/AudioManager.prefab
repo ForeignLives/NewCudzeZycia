@@ -92,7 +92,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Tajemniczy
     clip: {fileID: 8300000, guid: f1ca91c7db4cd0c44b4b9083290afa56, type: 3}
-    volume: 0.3
+    volume: 0.08
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -119,6 +119,15 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: MinigamePixel
     clip: {fileID: 8300000, guid: ea45e286e6958a843b813c584976c5e7, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    source: {fileID: 0}
+  - name: Cisza
+    clip: {fileID: 8300000, guid: eac051bae9d308c498fd2a083cd4ebf4, type: 3}
     volume: 0.3
     volumeVariance: 0
     pitch: 1

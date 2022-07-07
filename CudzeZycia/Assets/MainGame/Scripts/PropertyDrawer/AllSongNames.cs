@@ -17,6 +17,7 @@ public class AllSongNames : MonoBehaviour
             "Dramatyczna",
             "Mieszkanie",
             "MinigamePixel",
+            "Cisza",
         };
         return x.ToArray();
     }

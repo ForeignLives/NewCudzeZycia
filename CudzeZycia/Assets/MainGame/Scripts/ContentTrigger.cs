@@ -24,6 +24,8 @@ public class ContentTriggerItem
 
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.Video)]
     public VideoClip videoClip;
+    [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.Video)]
+    public float videoVolume = 1;
 
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.Dialogs)]
     public DialogGraph dialogGraph;
@@ -138,7 +140,7 @@ public class ContentTrigger : MonoBehaviour
             {
                 if (!e.videoClip) { Debug.LogError("videoClip not set! Dont play video."); continue; }
                 // Debug.Log("Uruchomiono Video (duration = " + e.videoClip.length + "sek)");
-                await myVideoPlayer.PlayVideo(e.videoClip);
+                await myVideoPlayer.PlayVideo(e.videoClip, e.videoVolume);
             }
             else if (e.ContentType == ContentTriggerType.Dialogs)
             {
