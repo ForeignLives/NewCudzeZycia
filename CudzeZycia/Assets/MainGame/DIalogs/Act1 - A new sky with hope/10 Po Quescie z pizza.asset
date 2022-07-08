@@ -43,7 +43,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Spr\xF3buj przej\u015B\u0107 obok nich niezauwa\u017Calnie."
 --- !u!114 &-4781486640002703650
@@ -89,7 +89,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Je\u015Bli nas z\u0142api\u0105 to b\u0119dziemy do ko\u0144ca dnia
     zmywa\u0107 szlam z but\xF3w Ricka. "
@@ -230,7 +230,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Goni\u0105 nas a\u017C tutaj? Maj\u0105 tupet."
 --- !u!114 &11400000
@@ -301,7 +301,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nigdy nie s\u0105dzi\u0142am, \u017Ce w kana\u0142ach poczuj\u0119
     zapach pizzy."
@@ -391,7 +391,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: Nie mam najmniejszego zamiaru.
 --- !u!114 &4746940036366301283
@@ -559,6 +559,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: Racja

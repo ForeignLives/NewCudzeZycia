@@ -90,7 +90,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Zamkni\u0119te."
 --- !u!114 &11400000
@@ -151,7 +151,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie wiem, ale si\u0119 dowiem. "
 --- !u!114 &5170497824604768717

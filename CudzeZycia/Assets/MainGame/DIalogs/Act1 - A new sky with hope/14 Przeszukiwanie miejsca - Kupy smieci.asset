@@ -89,7 +89,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Kamie\u0144, papier, no\u017Cyce na trzy. "
 --- !u!114 &-5841164700984440148
@@ -181,7 +181,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Potraktuj to jak p\u0142ywanie w basenie z kulkami. "
 --- !u!114 &-3384298542111399287
@@ -227,7 +227,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Tylko ludzkie p\u0142ody zmieszane z sosem chili."
 --- !u!114 &-2592973315157052187
@@ -273,7 +273,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Tak, i by\u0142o o tym ca\u0142kiem g\u0142o\u015Bno."
 --- !u!114 &-1512573748104881282
@@ -319,7 +319,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "B\u0119dziemy si\u0119 napierdala\u0107. "
 --- !u!114 &-868146904735065240
@@ -489,7 +489,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ale jak to si\u0119 m\xF3wi\u2026 przezorny zawsze ubezpieczony."
 --- !u!114 &1491034887041121701
@@ -581,7 +581,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "\u017Bartujesz z tym r\xF3wnouprawnieniem, prawda? "
 --- !u!114 &3541324266378070279
@@ -664,7 +664,7 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Raz\u2026dwa\u2026trzy\u2026 "
   Answers:
@@ -765,7 +765,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie b\u0119d\u0119 z tob\u0105 dyskutowa\u0107."
 --- !u!114 &3939506762447185459
@@ -904,7 +904,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie s\u0142ysza\u0142e\u015B o tym jak jeden celebryta wlewa\u0142
     ostry sos do kondom\xF3w, aby zapobiec ci\u0105\u017Cy w\u015Br\xF3d swoich fanek
@@ -955,7 +955,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Wygra\u0142am."
 --- !u!114 &7099490685513890322
@@ -1047,7 +1047,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'To wskakuj. '
 --- !u!114 &8295629377682886443

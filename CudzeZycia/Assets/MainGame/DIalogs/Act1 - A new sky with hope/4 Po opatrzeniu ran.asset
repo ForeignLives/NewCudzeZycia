@@ -90,7 +90,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'My? '
 --- !u!114 &-8516620870562056331
@@ -373,7 +373,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "No i \u2026 gotowe."
 --- !u!114 &-3611855357523893564
@@ -605,7 +605,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "P\u0142atnych chocia\u017C? "
 --- !u!114 &-2476179334077342683
@@ -846,7 +846,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'Sknera. '
 --- !u!114 &2898022714164391234
@@ -892,7 +892,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "U\u017Cyjemy ich! "
 --- !u!114 &3464506769026780158
@@ -985,7 +985,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie, dlaczego mia\u0142abym?"
 --- !u!114 &3734130593067568888
@@ -1078,7 +1078,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: I bez gadania. Twoje jazgotanie mnie rozprasza.
 --- !u!114 &4733893249576248990
@@ -1218,7 +1218,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Dobra Sky. Wyja\u015Bni\u0119 ci jeszcze raz jak powiniene\u015B dostarcza\u0107
     towar do skrzynek. "
@@ -1311,7 +1311,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Tylko\u2026 mam par\u0119 spraw na mie\u015Bcie, wi\u0119c chcia\u0142abym
     uwin\u0105\u0107 si\u0119 z tym jak najszybciej. "
@@ -1358,7 +1358,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Jeste\u015B przecie\u017C tylko <i>pierwsz\u0105</i> rann\u0105 osob\u0105
     w tym mie\u015Bcie. \r\n"

@@ -745,7 +745,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ach, zapomnia\u0142abym."
 --- !u!114 &-1997597505372389123
@@ -1062,7 +1062,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Wasze zakute pa\u0142y nie s\u0105 w stanie poj\u0105\u0107 tak trudnych
     poj\u0119\u0107. Pozw\xF3lcie wi\u0119c, \u017Ce wyt\u0142umacz\u0119 wam to
@@ -1299,7 +1299,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ja planuje kiedy\u015B si\u0119 st\u0105d wyrwa\u0107 i co\u015B w
     \u017Cyciu osi\u0105gn\u0105\u0107. Wy natomiast b\u0119dziecie tkwi\u0107 w
@@ -1347,7 +1347,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Oddajecie paczk\u0119 i si\u0119 rozchodzimy nie robi\u0105c ba\u0142aganu.\r\n"
 --- !u!114 &2587566594766187155
@@ -1565,7 +1565,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'Morda! '
 --- !u!114 &5574939203981483153
@@ -1611,7 +1611,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'Nie ma mowy. '
 --- !u!114 &5670983263880027569
@@ -1703,7 +1703,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Moja praca jest przynajmniej uczciwa i realnie p\u0142atna."
 --- !u!114 &7559856006161360208
@@ -2009,6 +2009,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "S\u0142uchajcie brudasy. "

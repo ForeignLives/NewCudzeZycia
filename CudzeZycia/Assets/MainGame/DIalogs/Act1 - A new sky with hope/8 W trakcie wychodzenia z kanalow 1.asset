@@ -89,7 +89,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "John z przyja\u017Ani kryje mnie przed psami. "
 --- !u!114 &-6070482767378860829
@@ -132,7 +132,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Niekt\xF3rzy po prostu dotrzymuj\u0105 obietnic lepiej ni\u017C inni.. "
 --- !u!114 &-4607715839921910412
@@ -301,7 +301,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'W ani jednym procencie nie przynosi. '
 --- !u!114 &11400000
@@ -420,7 +420,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "W tej strefie nie ma aptek. Ludzie lecz\u0105 si\u0119 gorza\u0142k\u0105
     i ska\u017Conymi ro\u015Blinami."
@@ -467,7 +467,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Masz racj\u0119, nie jest."
 --- !u!114 &4562989009230838890
@@ -513,7 +513,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Znajomy ze szko\u0142y. Zosta\u0142 pomocnikiem farmaceuty i za\u0142atwia
     mi lewe recepty. "
@@ -606,7 +606,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Dawno temu ja i kilka innych dzieciak\xF3w z\u0142o\u017Cyli\u015Bmy
     obietnic\u0119, \u017Ce b\u0119dziemy sobie pomaga\u0107 niewa\u017Cne jak wielkim

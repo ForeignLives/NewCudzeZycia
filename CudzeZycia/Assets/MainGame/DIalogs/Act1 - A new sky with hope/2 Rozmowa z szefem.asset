@@ -89,7 +89,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Szef. Nie wiem ile dok\u0142adnie pami\u0119tasz wi\u0119c tak na
     przypomnienie. Mo\u017Ce wydawa\u0107 si\u0119 troch\u0119 trudny w obyciu, a
@@ -373,7 +373,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'To robota Ricka. '
 --- !u!114 &-938617919241332769
@@ -466,7 +466,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Gdzie\u015B na p\xF3\u0142kach powinna by\u0107 apteczka. "
 --- !u!114 &11400000
@@ -767,7 +767,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Postaraj si\u0119 by\u0107 zatem troch\u0119 wyrozumia\u0142y, jasne?"
 --- !u!114 &4420641782512448413
@@ -813,7 +813,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ale to dobry cz\u0142owiek. Zwyczajnie nie mia\u0142 lekko. Czystka
     ostro go przejecha\u0142a. \u201CAlkohol mnie uspokaja\u201D, jak to m\xF3wi."
@@ -1047,7 +1047,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Poszukaj jej, a ja spr\xF3buj\u0119 wyrwa\u0107 troch\u0119 spirytusu
     z barku Johna."
@@ -1091,7 +1091,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "No to super, \u017Ce si\u0119 rozumiemy. A teraz le\u0107 znale\u017A\u0107
     t\u0105 apteczk\u0119, zanim zaka\u017Cenia jeszcze bardziej ci facjate przemebluj\u0105."

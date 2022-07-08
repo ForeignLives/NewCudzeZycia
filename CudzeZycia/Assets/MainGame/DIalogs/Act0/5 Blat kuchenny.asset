@@ -185,7 +185,7 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 1
   DialogText: "Przygl\u0105dasz si\u0119 brudnemu blatowi, kt\xF3ry ukazuje \u015Blady
-    zaniedbania kt\xF3re musz\u0105 si\u0119ga\u0107 paru lat."
+    zaniedbania siegaj\u0105ce paru lat. "
 --- !u!114 &-3954178037783371863
 MonoBehaviour:
   m_ObjectHideFlags: 0

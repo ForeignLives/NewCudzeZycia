@@ -331,7 +331,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ta. A potem wchodzisz w otwart\u0105 walk\u0119 z korporacjami, bo
     stwierdzili, \u017Ce zamkn\u0105 g\u0142\xF3wn\u0105 drog\u0119 i nie jeste\u015B
@@ -380,7 +380,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Najwyra\u017Aniej sk\u0142adzik dla B\u0142\u0119dnik\xF3w, ludzi
     wolnych. "
@@ -427,7 +427,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Ca\u0142y czas s\u0105 w podr\xF3\u017Cy. Przemieszczaj\u0105 si\u0119
     z jednego miejsca na drugie, wype\u0142niaj\u0105c ma\u0142e zadania po drodze
@@ -472,6 +472,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Chod\u017A, rozejrzymy si\u0119. "

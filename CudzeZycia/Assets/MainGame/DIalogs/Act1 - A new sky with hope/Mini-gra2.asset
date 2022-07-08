@@ -9254,7 +9254,7 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 1
   DialogText: "Gdy b\xF3l zaczyna zanika\u0107 orientujesz si\u0119, \u017Ce czas
-    wydawa\u0142 si\u0119 zatrzyma\u0107."
+    si\u0119 zatrzyma\u0142."
 --- !u!114 &949768424226889440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9959,8 +9959,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Przypominasz sobie jak pierwszy raz ci\u0119 obj\u0105\u0142 swoimi
-    szponami. Kiedy obudzi\u0142e\u015B si\u0119 w ciele Sky\u2019a."
+  DialogText: "Przypominasz sobie jak pierwszy raz ten b\xF3l obj\u0105\u0142 ci\u0119
+    swoimi szponami. Wtedy obudzi\u0142e\u015B si\u0119 w ciele Sky\u2019a."
 --- !u!114 &1661013491704237883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10142,7 +10142,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 6
+  AvatarName: 3
   AvatarPosition: 2
   DialogText: "Ty\u0142em d\u0142oni przywali\u0142a\u015B mu w g\u0142ow\u0119 i
     wybieg\u0142a\u015B z chmury by odzyska\u0107 oddech."

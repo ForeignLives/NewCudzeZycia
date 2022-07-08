@@ -43,7 +43,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie ma opcji, wk\u0142adaj tam r\u0119k\u0119 i nie marud\u017A. "
 --- !u!114 &-5802537788501544183
@@ -212,7 +212,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Spodnie nie, ale karta by\u0107 mo\u017Ce. "
 --- !u!114 &11400000
@@ -281,7 +281,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Na to wygl\u0105da."
 --- !u!114 &3503925459269416119

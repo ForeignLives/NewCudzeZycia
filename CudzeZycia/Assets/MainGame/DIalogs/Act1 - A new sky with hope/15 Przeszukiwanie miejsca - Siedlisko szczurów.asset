@@ -43,7 +43,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'N-nie ma mowy! '
 --- !u!114 &-8875352143794908579
@@ -89,7 +89,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Je\u015Bli ju\u017C musisz wiedzie\u0107, ja i Rick wychowali\u015Bmy
     si\u0119 na tym samym osiedlu."
@@ -136,7 +136,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie traktuj mnie jakbym tylko si\u0142\u0105 potrafi\u0142a si\u0119
     porozumie\u0107. "
@@ -183,7 +183,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'Dalej idziesz sam! '
 --- !u!114 &-8634954932702297954
@@ -369,7 +369,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: Pff.
 --- !u!114 &-6305438736234200963
@@ -508,7 +508,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Wypluj to albo sko\u0144czysz za rynn\u0105. "
 --- !u!114 &-1471562141253920906
@@ -578,14 +578,14 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Co\u015B ty si\u0119 tak tego Ricka uczepi\u0142? "
   Answers:
   - Message: "Niewa\u017Cne."
-    Type: 2
+    Type: 1
   - Message: "Zdawa\u0142o mi si\u0119 \u017Ce znacie si\u0119 ca\u0142kiem... blisko."
-    Type: 2
+    Type: 1
 --- !u!114 &-1167071191879432081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,9 +675,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
-  DialogText: "a, d\u0142ugo historia. O tym jak chcia\u0142am zmieni\u0107 \u015Bwiat
+  DialogText: "To d\u0142ugo historia. O tym jak chcia\u0142am zmieni\u0107 \u015Bwiat
     i zosta\u0107 wielkim mafioz\u0105."
 --- !u!114 &-428577746514595054
 MonoBehaviour:
@@ -768,7 +768,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: 'Bez przesady. '
 --- !u!114 &11400000
@@ -861,7 +861,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: Mniej.
 --- !u!114 &1188878387013549109
@@ -954,8 +954,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
-  AvatarPosition: 1
+  AvatarName: 8
+  AvatarPosition: 2
   DialogText: "Sko\u0144czmy temat. "
 --- !u!114 &1857256767869371940
 MonoBehaviour:
@@ -1047,7 +1047,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Nie trzeba. Pomog\u0119. "
 --- !u!114 &2305290770789065275
@@ -1093,7 +1093,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Niezupe\u0142nie."
 --- !u!114 &3433267683375555776
@@ -1404,7 +1404,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "To-to\u2026 to nie tak! One s\u0105 po prostu takie obrzydliwe i pe\u0142ne
     posklejanych k\u0142ak\xF3w\u2026 Ohyda"
@@ -1544,7 +1544,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: Sky.
 --- !u!114 &8958303923839560245
