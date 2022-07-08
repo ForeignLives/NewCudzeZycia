@@ -1438,7 +1438,10 @@ MonoBehaviour:
       _node: {fileID: -4462720607348693996}
       _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: Output
+        node: {fileID: -2371560181378576787}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -1936,7 +1939,10 @@ MonoBehaviour:
       _node: {fileID: -2371560181378576787}
       _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: input
+        node: {fileID: -4462720607348693996}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
