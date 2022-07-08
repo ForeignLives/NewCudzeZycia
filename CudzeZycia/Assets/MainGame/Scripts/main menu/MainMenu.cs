@@ -28,6 +28,9 @@ public class MainMenu : MonoBehaviour
         SettingsBtn.OnSelectToggle.AddListener((newState) => { OnMenuClick(newState, SettingsBtn); });
         CreditsBtn.OnSelectToggle.AddListener((newState) => { OnMenuClick(newState, CreditsBtn); });
         ExitBtn.OnSelectToggle.AddListener((newState) => { OnMenuClick(newState, ExitBtn); });
+
+        // ukrywanie przycisku wczytaj je¿eli nie ma sejwa
+        LoadGameBtn.gameObject.SetActive(IsSaveGameExist());
     }
 
     private void OnMenuClick(bool newState, MenuButton thisBtn)
@@ -86,5 +89,10 @@ public class MainMenu : MonoBehaviour
     }
     public void QuitGame() {
         Application.Quit();
+    }
+
+    private bool IsSaveGameExist()
+    {
+        return FindObjectOfType<SaveGameSingleton>().IsSaveGameExist();
     }
 }

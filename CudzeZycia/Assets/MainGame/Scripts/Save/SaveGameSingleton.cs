@@ -142,4 +142,19 @@ public class SaveGameSingleton : MonoBehaviour
         gameState = new GameSaveData();
         SceneManager.LoadScene("Hospital");
     }
+
+    public bool IsSaveGameExist()
+    {
+        try
+        {
+            // try parse save game
+            if (File.Exists(saveGamePath))
+            {
+                string jsondata = File.ReadAllText(saveGamePath);
+                JsonUtility.FromJson<GameSaveData>(jsondata);
+                return true;
+            }
+        } catch (Exception e) { }
+        return false;
+    }
 }
