@@ -593,7 +593,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh887494
+  m_Name: pb_Mesh468520
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -917,7 +917,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824016
+  m_Name: pb_Mesh-312662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1211,7 +1211,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824072
+  m_Name: pb_Mesh-312718
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1459,7 +1459,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-750338
+  m_Name: pb_Mesh-238984
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1997,7 +1997,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-766382
+  m_Name: pb_Mesh-255028
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3067,7 +3067,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-750430
+  m_Name: pb_Mesh-239076
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4956,7 +4956,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-823988
+  m_Name: pb_Mesh-312634
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6436,7 +6436,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824058
+  m_Name: pb_Mesh-312704
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7219,13 +7219,17 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: a755782cb57a5df41a8ab5dfd79f38dc, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &864463681
 MonoBehaviour:
@@ -7259,7 +7263,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824086
+  m_Name: pb_Mesh-312732
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7890,7 +7894,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824100
+  m_Name: pb_Mesh-312746
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8904,40 +8908,56 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 647fd6639f0a3f445b00dba957b0ac7f, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 0
     videoClip: {fileID: 32900000, guid: a19816611d1df67499eef495590a86c6, type: 3}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 298784dbdcfb03a4ebca3519188b0697, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 298784dbdcfb03a4ebca3519188b0697, type: 2}
     newObjective: 'TODO: tutaj wstaw cutscenke'
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 298784dbdcfb03a4ebca3519188b0697, type: 2}
     newObjective: "Wr\xF3\u0107 do domu"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1035792193
 MonoBehaviour:
@@ -9417,7 +9437,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh887428
+  m_Name: pb_Mesh468454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9950,7 +9970,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-818608
+  m_Name: pb_Mesh-307254
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23572,7 +23592,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-745078
+  m_Name: pb_Mesh-233724
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24527,7 +24547,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-750840
+  m_Name: pb_Mesh-239486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25017,7 +25037,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-823694
+  m_Name: pb_Mesh-312340
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25798,7 +25818,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-750384
+  m_Name: pb_Mesh-239030
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25962,7 +25982,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824044
+  m_Name: pb_Mesh-312690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26701,40 +26721,56 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 33b6ba19e7957484c8bd4fac42aefe89, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 33b6ba19e7957484c8bd4fac42aefe89, type: 2}
     newObjective: "Pod\u0105\u017Caj za Ash do siedziby kurierskiej"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 33b6ba19e7957484c8bd4fac42aefe89, type: 2}
     newObjective: "Pod\u0105\u017Caj za Ash do siedziby kurierskiej"
     targetGameObject: {fileID: 5136307621367286284}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 33b6ba19e7957484c8bd4fac42aefe89, type: 2}
     newObjective: "Pod\u0105\u017Caj za Ash do siedziby kurierskiej"
     targetGameObject: {fileID: 857214080}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1906462383
 MonoBehaviour:
@@ -27703,7 +27739,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-824002
+  m_Name: pb_Mesh-312648
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28151,7 +28187,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh887720
+  m_Name: pb_Mesh468746
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
