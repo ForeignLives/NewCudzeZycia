@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -32,6 +33,13 @@ public class AudioManager : MonoBehaviour
 
 			s.source.outputAudioMixerGroup = s.mixerGroup;
 		}
+
+		SceneManager.sceneLoaded += OnSceneLoaded;
+	}
+
+	void OnDestroy()
+	{
+		SceneManager.sceneLoaded -= OnSceneLoaded;
 	}
 
 	public void Play(string sound)
@@ -48,7 +56,7 @@ public class AudioManager : MonoBehaviour
 	public void PlayAsBackground(string sound)
     {
 		var s = FindSound(sound);
-		if (s == null) { return; }
+		if (s == null) { Debug.LogError("PlayAsBackground sound not found");  return; }
 
 		s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volumeVariance / 2f, s.volumeVariance / 2f));
 		s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
@@ -59,9 +67,9 @@ public class AudioManager : MonoBehaviour
             if (bgMusicPlayedNow != null)
 				bgMusicPlayedNow.source.Stop(); // stop old
 			
-			s.source.Play(); // play new
 			bgMusicPlayedNow = s;
 		}
+		s.source.Play();
 	}
 
 	private Sound FindSound(string soundName)
@@ -75,4 +83,20 @@ public class AudioManager : MonoBehaviour
 		return s;
 	}
 
+	public void StopBackground()
+    {
+		if (bgMusicPlayedNow != null)
+		{
+			bgMusicPlayedNow.source.Stop();
+		}
+	}
+
+	private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+	{
+		// wycisz / wy³¹cz / zresetuj muzykê w tle
+		if (bgMusicPlayedNow != null)
+        {
+			bgMusicPlayedNow.source.Stop();
+		}
+	}
 }

@@ -42,7 +42,6 @@ public class SaveGameSingleton : MonoBehaviour
 
     void OnDestroy()
     {
-        Debug.Log("USUÑ OnSceneLoaded");
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -54,7 +53,6 @@ public class SaveGameSingleton : MonoBehaviour
         gameState.mapName = SceneManager.GetActiveScene().name;
         gameState.currentQuestText = "";
 
-        Debug.Log("DODAJ OnSceneLoaded");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 

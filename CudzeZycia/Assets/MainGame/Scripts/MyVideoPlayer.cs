@@ -9,6 +9,7 @@ public class MyVideoPlayer : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public GameObject videoTexture;
+    public AudioSource audioSource;
 
     private bool skipAll = false;
 
@@ -24,7 +25,8 @@ public class MyVideoPlayer : MonoBehaviour
         videoPlayer.Stop();
 
         videoPlayer.clip = videoClip;
-        videoPlayer.SetDirectAudioVolume(0, volume);
+        // videoPlayer.SetDirectAudioVolume(0, volume);
+        audioSource.volume = volume;
         videoTexture.SetActive(true);
         videoPlayer.Play();
         
@@ -37,7 +39,10 @@ public class MyVideoPlayer : MonoBehaviour
         {
             await Task.Delay(100);
             delayms -= 100;
-            if (skipAll) { break; }
+            if (skipAll) {
+                videoPlayer.Stop();
+                break;
+            }
         }
 
         Time.timeScale = 1; // run game

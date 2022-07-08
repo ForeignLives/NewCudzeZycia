@@ -8,8 +8,9 @@ public class PlayMusic : MonoBehaviour
 
     public bool isAmbientOrBackgroundSong = true;
 
-    void Start()
+    void OnEnable()
     {
+        Debug.Log("play music");
         if (isAmbientOrBackgroundSong)
         {
             FindObjectOfType<AudioManager>().PlayAsBackground(songName);
@@ -18,5 +19,11 @@ public class PlayMusic : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play(songName);
         }
+    }
+
+    private void OnDisable()
+    {
+        Debug.Log("stop music");
+        FindObjectOfType<AudioManager>().StopBackground();
     }
 }

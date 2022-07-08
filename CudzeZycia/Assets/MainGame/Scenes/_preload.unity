@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.2561884, g: 0.31743145, b: 0.42013597, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -172,6 +172,7 @@ MonoBehaviour:
     characterTransform: {x: 0, y: 0, z: 0}
     characterRotation: {x: 0, y: 0, z: 0, w: 0}
     contentTriggerList: []
+    contentStateList: []
     currentQuestText: 
 --- !u!1001 &400475209
 PrefabInstance:
@@ -180,6 +181,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 671703391}
     m_Modifications:
+    - target: {fileID: 400475212, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400475212, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
+      propertyPath: MaxDistance
+      value: 1432.1985
+      objectReference: {fileID: 0}
+    - target: {fileID: 400475212, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4635310716353162212, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
       propertyPath: m_Name
       value: VideoPlayerCanvas
@@ -268,11 +281,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4635310716353162222, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 400475211}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
 --- !u!224 &400475210 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4635310716353162216, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
+  m_PrefabInstance: {fileID: 400475209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &400475211 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 400475212, guid: de1efc0703dfe1e4390e6e7407746694, type: 3}
   m_PrefabInstance: {fileID: 400475209}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &517977338
