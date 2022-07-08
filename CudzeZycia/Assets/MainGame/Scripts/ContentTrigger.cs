@@ -16,6 +16,7 @@ public enum ContentTriggerType
     ChangeGameObjectState,
     TeleportToMap,
     ShowCanvasAndWaitForKey,
+    ChangeStateById,
 }
 
 [System.Serializable]
@@ -39,6 +40,12 @@ public class ContentTriggerItem
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.ChangeGameObjectState)]
     public bool newActiveState;
 
+    [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.ChangeStateById)]
+    public string targetUniqueId;
+    [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.ChangeStateById)]
+    public bool newTargetState;
+
+
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.TeleportToMap)]
     public string sceneToLoad;
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.TeleportToMap)]
@@ -48,6 +55,8 @@ public class ContentTriggerItem
 
     [ConditionalField(new[] { nameof(ContentType) }, new[] { false }, ContentTriggerType.ShowCanvasAndWaitForKey)]
     public GameObject showGameObject;
+
+    
 
 
     public double getVideoDurationSek()
@@ -185,6 +194,10 @@ public class ContentTrigger : MonoBehaviour
             else if (e.ContentType == ContentTriggerType.ShowCanvasAndWaitForKey)
             {
                 await waitForCanvas(e.showGameObject);
+            }
+            else if (e.ContentType == ContentTriggerType.ChangeStateById)
+            {
+                saveGameInstance.ChangeContentStateById(e.targetUniqueId, e.newTargetState);
             }
             else
             {

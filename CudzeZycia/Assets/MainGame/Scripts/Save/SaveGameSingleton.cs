@@ -13,12 +13,20 @@ public class SaveContentTrigger
 }
 
 [Serializable]
+public class ContentState
+{
+    public string id;
+    public bool active;
+}
+
+[Serializable]
 public class GameSaveData
 {
     public string mapName = "";
     public Vector3 characterTransform;
     public Quaternion characterRotation;
     public List<SaveContentTrigger> contentTriggerList = new List<SaveContentTrigger>() { };
+    public List<ContentState> contentStateList = new List<ContentState>() { };
     public string currentQuestText = "";
     public DateTime saveCreateDateTime = DateTime.Now;
 }
@@ -34,6 +42,7 @@ public class SaveGameSingleton : MonoBehaviour
 
     void OnDestroy()
     {
+        Debug.Log("USUÑ OnSceneLoaded");
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -45,6 +54,7 @@ public class SaveGameSingleton : MonoBehaviour
         gameState.mapName = SceneManager.GetActiveScene().name;
         gameState.currentQuestText = "";
 
+        Debug.Log("DODAJ OnSceneLoaded");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -75,13 +85,22 @@ public class SaveGameSingleton : MonoBehaviour
         // Load ContentTriggers
         foreach (var ct in Resources.FindObjectsOfTypeAll<ContentTrigger>())
         {
-            var saveContentTrigger = gameState.contentTriggerList.Find(sct => sct.id == ct.GetUniqueId());
+            var ContentTriggerUniqueId = ct.GetUniqueId();
+            var saveContentTrigger = gameState.contentTriggerList.Find(sct => sct.id == ContentTriggerUniqueId);
             if(saveContentTrigger != null)
             {
                 ct.isComplete = saveContentTrigger.isComplete;
                 ct.gameObject.SetActive(!ct.isComplete);
             }
+
+            // load ContentTriggers states (switches on Map A to make change on Map B)
+            var thisContentState = gameState.contentStateList.Find(cs => cs.id == ContentTriggerUniqueId);
+            if (thisContentState != null)
+            {
+                ct.gameObject.SetActive(thisContentState.active);
+            }
         }
+
     }
 
     public void ContentTriggerUpdate(ContentTrigger ct)
@@ -100,6 +119,25 @@ public class SaveGameSingleton : MonoBehaviour
             {
                 id = thisCtId,
                 isComplete = ct.isComplete,
+            });
+        }
+    }
+
+    public void ChangeContentStateById(string uniqueId, bool newState)
+    {
+        var index = gameState.contentStateList.FindIndex(a => a.id == uniqueId);
+        if (index != -1)
+        {
+            // edytuj istniejacy
+            gameState.contentStateList[index].active = newState;
+        }
+        else
+        {
+            // dodaj nowy
+            gameState.contentStateList.Add(new ContentState
+            {
+                id = uniqueId,
+                active = newState,
             });
         }
     }
@@ -154,7 +192,7 @@ public class SaveGameSingleton : MonoBehaviour
                 JsonUtility.FromJson<GameSaveData>(jsondata);
                 return true;
             }
-        } catch (Exception e) { }
+        } catch (Exception _) { }
         return false;
     }
 }

@@ -5710,31 +5710,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: b804bc0cdc91ae442b2f6c9c26280cb6, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: "Przeszukaj Siedlisko Szczur\xF3w (3/3)"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: "Przeszukaj Siedlisko Szczur\xF3w (3/3)"
     targetGameObject: {fileID: 1511972320}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &378230908
 MonoBehaviour:
@@ -47925,31 +47937,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 6cd7ed42d5cd9514a80eb4695b415e0a, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: "Przeszukaj \u015Amieci  z odpadami (2/3)"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: "Przeszukaj \u015Amieci  z odpadami (2/3)"
     targetGameObject: {fileID: 378230904}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1306473020
 MonoBehaviour:
@@ -52016,22 +52040,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 056679c80f9ad3049b58f3f93dd2094e, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: "Wydosta\u0144 si\u0119 z kana\u0142\xF3w"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 6
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
+    newObjective: "Wydosta\u0144 si\u0119 z kana\u0142\xF3w"
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    targetUniqueId: 16efd9f3-1688-4ce3-a578-2685c77bc2df
+    newTargetState: 1
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1511972324
 MonoBehaviour:
@@ -52249,13 +52294,17 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 7e548c63285705e45947f729e5d1a0ad, type: 2}
     newObjective: "Podejd\u017A do b\u0142\u0119dnika"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1525503568
 MonoBehaviour:
@@ -63913,22 +63962,30 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 7e548c63285705e45947f729e5d1a0ad, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 7e548c63285705e45947f729e5d1a0ad, type: 2}
     newObjective: "Rozejrzyj si\u0119"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1834826238
 MonoBehaviour:
@@ -65588,31 +65645,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: Przeszukaj Beczki z odpadami (1/3)
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
     newObjective: Przeszukaj Beczki z odpadami (1/3)
     targetGameObject: {fileID: 1306473016}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1942649348
 MonoBehaviour:

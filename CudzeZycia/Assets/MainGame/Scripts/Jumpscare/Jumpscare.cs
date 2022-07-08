@@ -16,7 +16,7 @@ public class Jumpscare : MonoBehaviour
     private Vector3 _StartPosition;
     private CyclesMove CyclesMove;
     private Animator _LevelLoader;
-    private GameObject STAJ;
+    // private GameObject STAJ;
     private ScreenJumpscare SJ;
     private AudioSource _Audio;
 
@@ -32,7 +32,7 @@ public class Jumpscare : MonoBehaviour
         _StartPosition = transform.position;
         CyclesMove = GetComponent<CyclesMove>();
         Character = GameObject.Find("Character");
-        STAJ = GameObject.Find("StartPositionAfterJumpscare");
+        // STAJ = GameObject.Find("StartPositionAfterJumpscare");
         SJ = GameObject.Find("JumpscareScreenBlack").GetComponent<ScreenJumpscare>();
         _Audio = GetComponent<AudioSource>();
     }
@@ -64,6 +64,19 @@ public class Jumpscare : MonoBehaviour
         }
     }
 
+    private Transform GetTransformPositionAfterJumpscare()
+    {
+        StartPositionAfterJumpscare[] _list = FindObjectsOfType<StartPositionAfterJumpscare>();
+        foreach (var item in _list)
+        {
+            if (item.gameObject.activeSelf)
+            {
+                return item.transform;
+            }
+        }
+        throw new System.Exception("GetTransformPositionAfterJumpscare() fail. Not found active StartPositionAfterJumpscare GameObject");
+    }
+
 
 
 
@@ -79,8 +92,9 @@ public class Jumpscare : MonoBehaviour
         _LevelLoader.SetBool("Jumpscare", false);
         agent.isStopped = false;
         SJ.IfJumpscare = false;
-        Character.transform.position = STAJ.transform.position;
-        Character.transform.rotation = STAJ.transform.rotation;
+        var trans = GetTransformPositionAfterJumpscare();
+        Character.transform.position = trans.position;
+        Character.transform.rotation = trans.rotation;
         transform.position = _StartPosition;
         Movement.enabled = true;
         CameraMove.enabled = true;
