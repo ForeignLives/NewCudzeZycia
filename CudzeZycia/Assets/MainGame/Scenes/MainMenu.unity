@@ -1131,7 +1131,9 @@ MonoBehaviour:
     Designer\r\n\r\nKamil Gorlikowski - Game Development\r\n\r\nMaksymilian Zaj\u0105c 
     \"Chowder\" - Game Development\r\n\r\nPatryk S\u0142odczyk - Level Designer &
     3D Graphic Designer\r\n\r\nAlicja Jankowska - 3D Graphic Designer\r\n\r\nZuzanna
-    Wiecha - 2D Graphic Designer\r\n\r\nMicha\u0142 Czuj - 2D & 3D Graphic Designer\r\n\r\nSpecial
+    Wiecha - 2D Graphic Designer\r\n\r\nMicha\u0142 Czuj - 2D & 3D Graphic Designer\r\n\nDubbing:\r\nStefan
+    \"Jazzman\" Andrzejewski - Rick \r\nJolanta \"Divea\" Brzostowska - Ash\r\nPolyhymnia
+    - Grey & Sky \r\n\u0141ukasz \"Bledyo\" Kula - Faint\r\nAkioin - AI C\xF3rka\n\r\nSpecial
     thanks to:\r\nMarek Golonka - For taking care of project development \r\nRafa\u0142
     Owczarski - For mentoring and support \r\nNouran - For the soundtrack of the
     game \r"
@@ -1161,8 +1163,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1197,7 +1199,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.82570654, w: -0.59304804}
+  m_margin: {x: 0, y: -9.2968445, z: -0.82570654, w: -0.59304804}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1650,7 +1652,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -96.45511, y: 0, z: -102.265625, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
