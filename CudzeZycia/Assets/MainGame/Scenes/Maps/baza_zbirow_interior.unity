@@ -919,58 +919,108 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 289c9da256326284cb243784305432f3, type: 2}
     newObjective: Biegnij z Ash na zaplecze
     targetGameObject: {fileID: 1358274773}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
     newObjective: Biegnij z Ash na zaplecze
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
     newObjective: Biegnij z Ash na zaplecze
     targetGameObject: {fileID: 737376544}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
     newObjective: Biegnij z Ash na zaplecze
     targetGameObject: {fileID: 1358274773}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
+    newObjective: Biegnij z Ash na zaplecze
+    targetGameObject: {fileID: 438222728}
+    newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: b70b262029f8c4d479f14ce085fb2ea6, type: 2}
+    newObjective: Biegnij z Ash na zaplecze
+    targetGameObject: {fileID: 1167898300}
+    newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &191809392
 MonoBehaviour:
@@ -1696,7 +1746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &438222729
 Transform:
   m_ObjectHideFlags: 0
@@ -1740,31 +1790,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: "Wejd\u017A do \u015Bciek\xF3w"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: "Wejd\u017A do \u015Bciek\xF3w"
     targetGameObject: {fileID: 1358274773}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: "Wejd\u017A do \u015Bciek\xF3w"
     targetGameObject: {fileID: 626082892}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &438222732
 MonoBehaviour:
@@ -5672,22 +5734,30 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: "Podejd\u017A do sto\u0142u"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: Porozmawiaj z zbirami
     targetGameObject: {fileID: 191809389}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &635712826
 MonoBehaviour:
@@ -8971,7 +9041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1167898301
 Transform:
   m_ObjectHideFlags: 0
@@ -9015,13 +9085,17 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 4
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: sewers
     playerPosition: {x: 0, y: 0, z: 8.5}
     playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1167898304
 MonoBehaviour:

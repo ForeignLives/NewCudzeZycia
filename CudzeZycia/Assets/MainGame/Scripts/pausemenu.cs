@@ -6,6 +6,7 @@ public class pausemenu : MonoBehaviour
     private FirstPersonLook lockcamera;
     private FirstPersonMovement lockmovement;
     public GameObject pauseObject; // canvas with pause menu (resume btn, close game, etc)
+    public GameObject showAfterSave; // informacja ¿e zapisano gre
     
     public bool isGamePaused = false; // used by exteranal scripts (for example ShowObjects.cs)
     public bool openIsBlocked = false; // used to block open pause menu (for example ShowObjects.cs block pause when preview object)
@@ -52,6 +53,7 @@ public class pausemenu : MonoBehaviour
         Cursor.visible = true;
         lockcamera.enabled = false;
         lockmovement.enabled = false;
+        showAfterSave.SetActive(false);
     }
 
     public void ResumeGame()
@@ -78,6 +80,8 @@ public class pausemenu : MonoBehaviour
 
     public void SaveGame()
     {
+
         FindObjectOfType<SaveGameSingleton>().SaveGame();
+        showAfterSave.SetActive(true);
     }
 }
