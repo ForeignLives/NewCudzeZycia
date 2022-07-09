@@ -1232,6 +1232,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6152d29408578745b23d2eea810a23d, type: 3}
+--- !u!1 &326990702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326990704}
+  - component: {fileID: 326990703}
+  m_Layer: 0
+  m_Name: PlayMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &326990703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326990702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d16aac8f5167aa45b73a88bbcd3e819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Tajemniczy
+  isAmbientOrBackgroundSong: 1
+--- !u!4 &326990704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326990702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.02387, y: 92.818184, z: 68.506836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &328545413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1253,7 +1299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5756165657125262613, guid: d82e99f837e54ba4e98e5390f1437e33, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5756165657125262613, guid: d82e99f837e54ba4e98e5390f1437e33, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1794,40 +1840,56 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: d8c5a300cfc08dd4a86064881e7dd3d3, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 4
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: MiniGame1
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 'TODO: uruchomienie mini gry kurierskiej'
     targetGameObject: {fileID: 624462838}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &515703091
 MonoBehaviour:
@@ -2504,7 +2566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4391487549405650313, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4391487549405650313, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3074,7 +3136,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &624462838
 GameObject:
@@ -3125,31 +3187,43 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: e0fccec5e64481641ac78f1ab5be401f, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 4
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 'TODO: uruchomienie mini gry kurierskiej'
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: baza_zbirow_interior
     playerPosition: {x: -1.169747, y: 0, z: 5.47901}
     playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &624462841
 MonoBehaviour:
@@ -4008,7 +4082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5735442727390896422, guid: 8fa0ef18dde3ea04594e85b8bee1b934, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5735442727390896422, guid: 8fa0ef18dde3ea04594e85b8bee1b934, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4177,7 +4251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1800168232265836141, guid: 32480ded67cad144baf99d8823151a0a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1800168232265836141, guid: 32480ded67cad144baf99d8823151a0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4259,7 +4333,7 @@ Transform:
   - {fileID: 515703089}
   - {fileID: 624462839}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1045965301 stripped
 Transform:
@@ -4521,40 +4595,56 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: Poszukaj apteczki
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
     newObjective: Poszukaj apteczki
     targetGameObject: {fileID: 1365724767}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1155037898
 MonoBehaviour:
@@ -5277,49 +5367,69 @@ MonoBehaviour:
   scenarioList:
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 0}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 251ab9a909263f64297934ff9608dbe2, type: 2}
     newObjective: "Usi\u0105d\u017A na krze\u015Ble"
     targetGameObject: {fileID: 1877520675}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 251ab9a909263f64297934ff9608dbe2, type: 2}
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 2
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 251ab9a909263f64297934ff9608dbe2, type: 2}
     newObjective: "Usi\u0105d\u017A na krze\u015Ble"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   - ContentType: 3
     videoClip: {fileID: 0}
+    videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 251ab9a909263f64297934ff9608dbe2, type: 2}
     newObjective: "Usi\u0105d\u017A na krze\u015Ble"
     targetGameObject: {fileID: 515703088}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &1365724771
 MonoBehaviour:
@@ -6534,7 +6644,7 @@ Transform:
   - {fileID: 550237094}
   - {fileID: 157237802}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1821903030
 PrefabInstance:
@@ -6692,7 +6802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5561988596448354737, guid: 796eb0b598f92b24190180d9e5050207, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5561988596448354737, guid: 796eb0b598f92b24190180d9e5050207, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6913,7 +7023,7 @@ Transform:
   - {fileID: 1731884466}
   - {fileID: 633834904}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1959037469 stripped
 Transform:
@@ -12242,7 +12352,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2014083877
 PrefabInstance:
