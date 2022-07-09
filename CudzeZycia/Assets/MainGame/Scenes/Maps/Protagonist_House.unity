@@ -1126,6 +1126,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1137,6 +1139,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do lustra w \u0142azience"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1148,6 +1152,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do lustra w \u0142azience"
     targetGameObject: {fileID: 767234663}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1537,6 +1543,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1548,6 +1556,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do tablicy"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1559,6 +1569,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do kuchni"
     targetGameObject: {fileID: 1778618803}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -1832,7 +1844,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh657608
+  m_Name: pb_Mesh441796
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3252,6 +3264,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3263,6 +3277,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do okna w salonie"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3274,6 +3290,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do okna w salonie"
     targetGameObject: {fileID: 1861651642}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3364,6 +3382,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3375,6 +3395,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do zdj\u0119cia na \u015Bcianie"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3386,6 +3408,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 827850793}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3471,6 +3495,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3482,6 +3508,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3493,6 +3521,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -3504,6 +3534,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: MainMap
     playerPosition: {x: -71.955, y: 0.706, z: 138.7}
     playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
@@ -3965,6 +3997,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5702607355904580583, guid: 5ad846ca7436f7d479c8a82675c672b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6964069001149947747, guid: 5ad846ca7436f7d479c8a82675c672b0, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -10348,40 +10384,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153284, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: m_AllowDynamicResolution
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153286, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153288, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153289, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: stopNaNs
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153289, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: dithering
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153289, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: fullscreenPassthrough
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153289, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: allowDynamicResolution
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394673857994153289, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
-      propertyPath: customRenderingSettings
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5394673857994153288, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b23f564febd0b074a8bcdae6ae015b9b, type: 3}
 --- !u!1 &1497518804
 GameObject:
@@ -11215,6 +11218,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11226,6 +11231,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do \u0142\xF3\u017Cka"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11237,6 +11244,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 349833039}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11362,6 +11371,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11373,6 +11384,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do kuchni"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11384,6 +11397,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do kuchni"
     targetGameObject: {fileID: 718413396}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11469,6 +11484,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11480,6 +11497,8 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do Komputera"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
@@ -11491,6 +11510,8 @@ MonoBehaviour:
     newObjective: 
     targetGameObject: {fileID: 455843218}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
     sceneToLoad: 
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}

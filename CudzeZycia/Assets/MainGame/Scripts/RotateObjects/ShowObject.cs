@@ -11,6 +11,7 @@ public class ShowObject : MonoBehaviour
     private bool isCollide = false;
     private int Many = 0;
     private AudioSource _audio;
+    private pausemenu Pause;
 
 
     private void Start()
@@ -19,6 +20,7 @@ public class ShowObject : MonoBehaviour
         lockmovement = GameObject.Find("Character").GetComponent<FirstPersonMovement>();
         lockcamera = GameObject.Find("Camera").GetComponent<FirstPersonLook>();
         _outline = transform.Find("outline").gameObject;
+        Pause = FindObjectOfType<pausemenu>();
     }
 
     private void OnTriggerStay(Collider other)
@@ -44,7 +46,7 @@ public class ShowObject : MonoBehaviour
         {
             PrzyblizObiekt();
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && isCollide == true)
+        else if (Input.GetKeyDown(KeyCode.Escape) && isCollide == true && Many > 0)
         {
             ZamknijObiekt();
         }
@@ -60,6 +62,7 @@ public class ShowObject : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         _audio.enabled = false;
+        Pause.openIsBlocked = true;
     }
 
     void ZamknijObiekt()
@@ -70,6 +73,7 @@ public class ShowObject : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         _audio.enabled = true;
+        Pause.openIsBlocked = false;
     }
 
 

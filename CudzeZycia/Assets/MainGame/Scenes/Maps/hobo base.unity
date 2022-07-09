@@ -51702,6 +51702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doors (To sewers)
       objectReference: {fileID: 0}
+    - target: {fileID: 466345991873840555, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 466345991873840556, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: sceneToLoad
       value: sewers
@@ -51768,6 +51772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
+--- !u!1 &1497294060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 466345991873840555, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
+  m_PrefabInstance: {fileID: 1497294059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1499744123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52071,6 +52080,19 @@ MonoBehaviour:
     newObjective: "Wydosta\u0144 si\u0119 z kana\u0142\xF3w"
     targetGameObject: {fileID: 0}
     newActiveState: 0
+    targetUniqueId: 16efd9f3-1688-4ce3-a578-2685c77bc2df
+    newTargetState: 1
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: f684afc66889c9b478b5baf96f80fd7f, type: 2}
+    newObjective: "Wydosta\u0144 si\u0119 z kana\u0142\xF3w"
+    targetGameObject: {fileID: 1497294060}
+    newActiveState: 1
     targetUniqueId: 16efd9f3-1688-4ce3-a578-2685c77bc2df
     newTargetState: 1
     sceneToLoad: 
