@@ -34,12 +34,12 @@ public class AudioManager : MonoBehaviour
 			s.source.outputAudioMixerGroup = s.mixerGroup;
 		}
 
-		SceneManager.sceneLoaded += OnSceneLoaded;
+		// SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
 	void OnDestroy()
 	{
-		SceneManager.sceneLoaded -= OnSceneLoaded;
+		// SceneManager.sceneLoaded -= OnSceneLoaded;
 	}
 
 	public void Play(string sound)
@@ -88,6 +88,16 @@ public class AudioManager : MonoBehaviour
 		if (bgMusicPlayedNow != null)
 		{
 			bgMusicPlayedNow.source.Stop();
+		}
+	}
+
+	public void StopBackground(string songName)
+	{
+		if (bgMusicPlayedNow != null)
+		{
+			if (bgMusicPlayedNow.name == songName) {
+				bgMusicPlayedNow.source.Stop();
+			}
 		}
 	}
 
