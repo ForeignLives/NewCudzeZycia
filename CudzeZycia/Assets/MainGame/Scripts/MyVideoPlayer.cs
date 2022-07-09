@@ -27,9 +27,9 @@ public class MyVideoPlayer : MonoBehaviour
         videoPlayer.clip = videoClip;
         // videoPlayer.SetDirectAudioVolume(0, volume);
         audioSource.volume = volume;
-        videoTexture.SetActive(true);
         videoPlayer.Play();
-        
+        videoTexture.SetActive(true);
+
 
         Time.timeScale = 0; // pause game
 
