@@ -7230,6 +7230,32 @@ MonoBehaviour:
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
     showGameObject: {fileID: 0}
+  - ContentType: 2
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: a755782cb57a5df41a8ab5dfd79f38dc, type: 2}
+    newObjective: 
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 0
+    videoClip: {fileID: 32900000, guid: b0933e1eda7476a43aa0d2149509c2fc, type: 3}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: a755782cb57a5df41a8ab5dfd79f38dc, type: 2}
+    newObjective: 
+    targetGameObject: {fileID: 0}
+    newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
   isComplete: 0
 --- !u!114 &864463681
 MonoBehaviour:
