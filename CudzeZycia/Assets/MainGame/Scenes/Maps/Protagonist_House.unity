@@ -1938,6 +1938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
+--- !u!1 &504703763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 466345991873840555, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
+  m_PrefabInstance: {fileID: 504703762}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &508193469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3256906236913927554, guid: 2b897219ab225cb41bcac522a1f9c1c3, type: 3}
@@ -12030,6 +12035,19 @@ MonoBehaviour:
     newObjective: "Podejd\u017A do kuchni"
     targetGameObject: {fileID: 1531260976}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: 6a30b5a06dcab73499efb6689f16cd70, type: 2}
+    newObjective: "Podejd\u017A do kuchni"
+    targetGameObject: {fileID: 504703763}
+    newActiveState: 0
     targetUniqueId: 
     newTargetState: 0
     sceneToLoad: 

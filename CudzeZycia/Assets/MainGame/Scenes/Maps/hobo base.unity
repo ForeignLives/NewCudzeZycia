@@ -51883,7 +51883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 466345991873840555, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 466345991873840556, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: sceneToLoad
@@ -64272,6 +64272,19 @@ MonoBehaviour:
     dialogGraph: {fileID: 11400000, guid: 7e548c63285705e45947f729e5d1a0ad, type: 2}
     newObjective: "Rozejrzyj si\u0119"
     targetGameObject: {fileID: 0}
+    newActiveState: 0
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: 7e548c63285705e45947f729e5d1a0ad, type: 2}
+    newObjective: "Rozejrzyj si\u0119"
+    targetGameObject: {fileID: 1497294060}
     newActiveState: 0
     targetUniqueId: 
     newTargetState: 0
