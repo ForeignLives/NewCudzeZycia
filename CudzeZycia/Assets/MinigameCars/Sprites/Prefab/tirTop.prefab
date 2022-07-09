@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SC: {fileID: 11400000, guid: 9f9d76c62d86660488713a50d0c9a486, type: 2}
-  isCar: 1
-  isProp: 0
+  isCar: 0
+  isProp: 1
 --- !u!114 &3359410693304625503
 MonoBehaviour:
   m_ObjectHideFlags: 0

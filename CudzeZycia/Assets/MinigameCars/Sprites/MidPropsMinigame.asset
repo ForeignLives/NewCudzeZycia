@@ -9,17 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af566f65090c5974aa1efb1fd568268c, type: 3}
-  m_Name: ScoreCounter
+  m_Script: {fileID: 11500000, guid: 52d6684a87e186e439f0ed75d8a919cf, type: 3}
+  m_Name: MidPropsMinigame
   m_EditorClassIdentifier: 
-  points: 0
-  RecordPoints: 0
-  OldRecordPoints: 0
-  start: 0
-  poziom: 1
-  PointCollect: 0
-  Dead: 0
-  menuGlowne: 1
-  PunktyCanvas: 0
-  Statystyki: 0
-  Tut: 1
+  HoldObjects: []

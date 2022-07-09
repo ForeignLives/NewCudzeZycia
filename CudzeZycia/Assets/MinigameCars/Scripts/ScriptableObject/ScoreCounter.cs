@@ -13,4 +13,5 @@ public class ScoreCounter : ScriptableObject
     public bool menuGlowne = true;
     public bool PunktyCanvas = false;
     public bool Statystyki = false;
+    public bool Tut = true;
 }

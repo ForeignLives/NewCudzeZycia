@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class SpawnObjectMinigameCar : MonoBehaviour
 {
-    public GameObject[] _spawnPrefab;
+    public ObjectHolder Top, Mid, Bot;
+    public Transform TopTrans, MidTrans, BotTrans;
     public Animation _anim;
-    private int randomnumber;
+    private int randomnumber1, randomnumber2, randomnumber3, SpawnType;
     private int PropType;
     private float _time;
     private bool couritneExe = false;
@@ -46,21 +47,12 @@ public class SpawnObjectMinigameCar : MonoBehaviour
         //_time = Random.Range(MinTimer, MaxTimer);
         PoziomTrudnosci(Poziom.poziom);
         yield return new WaitForSeconds(_time);
-        randomnumber = Random.Range(0, 10);
+        randomnumber1 = Random.Range(0, 10);
+        randomnumber2 = Random.Range(0, 10);
+        randomnumber3 = Random.Range(0, 10);
+        SpawnType = Random.Range(1, 6);
 
-        if(randomnumber >= 9)
-        {
-            Instantiate(_spawnPrefab[9], transform.position, transform.rotation);
-        }
-        else if(randomnumber < 9 && randomnumber > 5)
-        {
-            Instantiate(_spawnPrefab[8], transform.position, transform.rotation);
-        }
-        else
-        {
-            PropType = Random.Range(0, 7);
-            Instantiate(_spawnPrefab[PropType], transform.position, transform.rotation);
-        }
+        SpawnObjects(SpawnType, randomnumber1, randomnumber2, randomnumber3);
         
 
         couritneExe = false;
@@ -72,23 +64,80 @@ public class SpawnObjectMinigameCar : MonoBehaviour
     {
         if (Poziom == 1)
         {
-            _time = Random.Range(2f, 6);
+            _time = Random.Range(1.5f, 2.5f);
         }
         else if(Poziom == 2)
         {
-            _time = Random.Range(1f, 5);
+            _time = Random.Range(1.3f, 2f);
         }
         else if (Poziom == 3)
         {
-            _time = Random.Range(0.7f, 4);
+            _time = Random.Range(0.8f, 1.3f);
         }
         else if (Poziom == 4)
         {
-            _time = Random.Range(0.7f, 3);
+            _time = Random.Range(0.6f, 1f);
         }
         else
         {
-            _time = Random.Range(0.7f, 2f);
+            _time = Random.Range(0.4f, 0.5f);
         }
     }
+
+    void SpawnObjects(int randomtype, int random1, int random2, int random3)
+    {
+        if(randomtype == 1)
+        {
+                Instantiate(Top.HoldObjects[random1], TopTrans.position, TopTrans.rotation);
+        }
+
+        if (randomtype == 2)
+        {
+                Instantiate(Mid.HoldObjects[random2], MidTrans.position, MidTrans.rotation);
+        }
+
+        if (randomtype == 3)
+        {
+                Instantiate(Bot.HoldObjects[random3], BotTrans.position, BotTrans.rotation);
+        }
+
+        if (randomtype == 4)
+        {
+            Instantiate(Top.HoldObjects[random1], TopTrans.position, TopTrans.rotation);
+            Instantiate(Bot.HoldObjects[random3], BotTrans.position, BotTrans.rotation);
+        }
+
+        if (randomtype == 5)
+        {
+            Instantiate(Bot.HoldObjects[random3], BotTrans.position, BotTrans.rotation);
+            Instantiate(Mid.HoldObjects[random2], MidTrans.position, MidTrans.rotation);
+        }
+
+        if (randomtype == 6)
+        {
+            Instantiate(Top.HoldObjects[random1], TopTrans.position, TopTrans.rotation);
+            Instantiate(Mid.HoldObjects[random2], MidTrans.position, MidTrans.rotation);
+        }
+
+
+    }
+
+
+
+
+
+
+    /*if (randomnumber1 >= 9)
+        {
+            Instantiate(Top.HoldObjects[9], transform.position, transform.rotation);
+        }
+        else if (randomnumber1 < 9 && randomnumber1 > 5)
+        {
+            Instantiate(Mid.HoldObjects[8], transform.position, transform.rotation);
+        }
+        else
+        {
+            PropType = Random.Range(0, 7);
+            Instantiate(Bot.HoldObjects[PropType], transform.position, transform.rotation);
+        }*/
 }
