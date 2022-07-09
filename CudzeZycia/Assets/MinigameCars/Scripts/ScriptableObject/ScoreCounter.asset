@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ScoreCounter
   m_EditorClassIdentifier: 
   points: 0
-  RecordPoints: 184
-  OldRecordPoints: 1500
+  RecordPoints: 0
+  OldRecordPoints: 0
   start: 0
   poziom: 1
   PointCollect: 0

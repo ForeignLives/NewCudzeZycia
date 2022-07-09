@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d6684a87e186e439f0ed75d8a919cf, type: 3}
   m_Name: BotPropsMinigame
   m_EditorClassIdentifier: 
-  HoldObjects: []
+  HoldObjects:
+  - {fileID: 687791386615850018, guid: 8a43d28fcc054314bb5a225203594748, type: 3}
+  - {fileID: 2258098226377766766, guid: f1f53a03c04c29542aaab6f81bdb8ff3, type: 3}
+  - {fileID: 4053336750066736171, guid: 2482213a3dac91d46a3ba7f5d447c947, type: 3}
+  - {fileID: 1928410176775585044, guid: 40c5eb2f8f7772a4da1a0fa3e5e7e56c, type: 3}
+  - {fileID: 8181594622059948669, guid: 9b2962aaf52853c4ba163ec448bbba24, type: 3}
+  - {fileID: 3567571257138963359, guid: 3ddc482c2d6c72f47be868ba66d15151, type: 3}
+  - {fileID: 2682949670566152898, guid: cdbce43ce7fb29f4fb78d0954c5886d5, type: 3}
+  - {fileID: 4740262541143700802, guid: f11b7ff68af3027449c934e213385d81, type: 3}
+  - {fileID: 1129794215817836751, guid: 1938650cef0ae834a986a57d119cbf82, type: 3}
+  - {fileID: 8976055277249095596, guid: 26df013f3374bfa498d7048ae72cf8e1, type: 3}

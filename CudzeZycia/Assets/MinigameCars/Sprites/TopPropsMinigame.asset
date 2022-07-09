@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d6684a87e186e439f0ed75d8a919cf, type: 3}
   m_Name: TopPropsMinigame
   m_EditorClassIdentifier: 
-  HoldObjects: []
+  HoldObjects:
+  - {fileID: 8141228166826439418, guid: 52fc273f95beec549b9175305242c5d4, type: 3}
+  - {fileID: 3215976295838668467, guid: bfb0888b8cec4e64ead6906f5e19b32d, type: 3}
+  - {fileID: 559769911079148245, guid: cc312188b2f212f41b857860c2fafa3c, type: 3}
+  - {fileID: 8306055341232187204, guid: 307d83fa2f46c8a4081463f983eac6dc, type: 3}
+  - {fileID: 1533491615170136427, guid: f8c439da36b3e7c47a739b1ebfdec8bd, type: 3}
+  - {fileID: 5481082096173449082, guid: de800771a8a75e548ae7ccde3837b3fa, type: 3}
+  - {fileID: 8200839085465899594, guid: 4a75a41906826d8439f464dd245ec264, type: 3}
+  - {fileID: 6560292692933357188, guid: 6ce0bd55eb986e240b590bc94fa13613, type: 3}
+  - {fileID: 3734578155822433215, guid: dc892158b25e3b2488243acb956fbffe, type: 3}
+  - {fileID: 6560292692933357188, guid: 6ce0bd55eb986e240b590bc94fa13613, type: 3}
