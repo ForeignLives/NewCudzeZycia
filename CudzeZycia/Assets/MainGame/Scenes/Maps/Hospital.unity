@@ -19666,7 +19666,7 @@ MonoBehaviour:
     videoClip: {fileID: 32900000, guid: f696ff448ac90724bb63a6aa82e580f5, type: 3}
     videoVolume: 1
     dialogGraph: {fileID: 11400000, guid: 16a293c310b51d349b0b6115040e7420, type: 2}
-    newObjective: "Wr\xF3\u0107 do domu (wyjdz z szpitala)"
+    newObjective: "Wr\xF3\u0107 do domu (wyjdz ze szpitala)"
     targetGameObject: {fileID: 0}
     newActiveState: 0
     targetUniqueId: 
