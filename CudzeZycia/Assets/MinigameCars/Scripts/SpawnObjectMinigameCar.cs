@@ -64,23 +64,23 @@ public class SpawnObjectMinigameCar : MonoBehaviour
     {
         if (Poziom == 1)
         {
-            _time = Random.Range(1.5f, 2.5f);
+            _time = Random.Range(1.4f, 2f);
         }
         else if(Poziom == 2)
         {
-            _time = Random.Range(1.3f, 2f);
+            _time = Random.Range(1.1f, 1.4f);
         }
         else if (Poziom == 3)
         {
-            _time = Random.Range(0.8f, 1.3f);
+            _time = Random.Range(0.8f, 1.1f);
         }
         else if (Poziom == 4)
         {
-            _time = Random.Range(0.6f, 1f);
+            _time = Random.Range(0.6f, 0.8f);
         }
         else
         {
-            _time = Random.Range(0.4f, 0.5f);
+            _time = 0.55f;
         }
     }
 

@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d6684a87e186e439f0ed75d8a919cf, type: 3}
   m_Name: MidPropsMinigame
   m_EditorClassIdentifier: 
-  HoldObjects: []
+  HoldObjects:
+  - {fileID: 2571480850598588983, guid: 91b8d0acb9b320e4e81b2eb4f4d3b0ab, type: 3}
+  - {fileID: 5232643247400079446, guid: 06bf73c0c35828f459f4fd3d1c69ed44, type: 3}
+  - {fileID: 285864857751610382, guid: d441c9c5d47f1794bb2fd865d655f3df, type: 3}
+  - {fileID: 5508085632684336489, guid: 515bd61c6469e5c458af9da3164691bc, type: 3}
+  - {fileID: 6089746541636428242, guid: 7c20272990340d64fa41b7deb70aefd4, type: 3}
+  - {fileID: 4798983421571383483, guid: 145a1754466e5894aaf5a9373d87eecd, type: 3}
+  - {fileID: 2336574793786535753, guid: 910e4e6e93a7a6146b30deb3a1977333, type: 3}
+  - {fileID: 4240094142970603208, guid: b864660fcffd3e543bd95db082214116, type: 3}
+  - {fileID: 3276124936346083959, guid: 40398680a49ed3b4a9c68eea24e42a01, type: 3}
+  - {fileID: 4211339943749484987, guid: 679796bcc21a65946b1a63c6bc5019b7, type: 3}

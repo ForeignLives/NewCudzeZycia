@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ScoreCounter
   m_EditorClassIdentifier: 
   points: 0
-  RecordPoints: 0
-  OldRecordPoints: 0
+  RecordPoints: 1929
+  OldRecordPoints: 3213
   start: 0
   poziom: 1
   PointCollect: 0
@@ -22,4 +22,4 @@ MonoBehaviour:
   menuGlowne: 1
   PunktyCanvas: 0
   Statystyki: 0
-  Tut: 1
+  Tut: 0
