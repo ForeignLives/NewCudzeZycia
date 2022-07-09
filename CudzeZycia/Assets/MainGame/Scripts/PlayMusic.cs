@@ -10,20 +10,29 @@ public class PlayMusic : MonoBehaviour
 
     void OnEnable()
     {
-        Debug.Log("play music");
-        if (isAmbientOrBackgroundSong)
+        Debug.Log("play music ("+ songName +")");
+        var audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
         {
-            FindObjectOfType<AudioManager>().PlayAsBackground(songName);
+            if (isAmbientOrBackgroundSong)
+            {
+                audioManager.PlayAsBackground(songName);
+            }
+            else
+            {
+                audioManager.Play(songName);
+            }
         }
         else
         {
-            FindObjectOfType<AudioManager>().Play(songName);
+            Debug.LogError("AudioManager not fonud (pewnie dlatego ¿e debugujesz)");
         }
+
     }
 
     private void OnDisable()
     {
-        Debug.Log("stop music");
-        FindObjectOfType<AudioManager>().StopBackground();
+        Debug.Log("stop music (" + songName + ")");
+        FindObjectOfType<AudioManager>().StopBackground(songName);
     }
 }

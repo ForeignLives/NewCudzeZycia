@@ -14,7 +14,7 @@ public class QuestManager : MonoBehaviour
         saveGameInstance = FindObjectOfType<SaveGameSingleton>();
         if (saveGameInstance == null)
         {
-            Debug.LogError("Nie znaleziono SaveGameSingleton");
+            Debug.LogError("Nie znaleziono SaveGameSingleton (ale to pewnie dla tego ¿e Debugujesz)");
         }
     }
 
