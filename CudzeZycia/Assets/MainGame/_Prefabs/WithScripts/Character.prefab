@@ -572,7 +572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   canRun: 1
-  runSpeed: 6
+  runSpeed: 4.5
   runningKey: 304
   anim: {fileID: 4286032483174234776}
   StartPosition: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
@@ -759,7 +759,6 @@ GameObject:
   - component: {fileID: 5394673857994153285}
   - component: {fileID: 5394673857994153284}
   - component: {fileID: 5394673857994153287}
-  - component: {fileID: 5394673857994153288}
   - component: {fileID: 5394673857994153289}
   - component: {fileID: 8711468243524547841}
   m_Layer: 0
@@ -836,23 +835,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5394673857994153286}
   m_Enabled: 1
---- !u!114 &5394673857994153288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5394673857994153286}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: c7971bb2ed1825a45810abf63f3864d4, type: 2}
 --- !u!114 &5394673857994153289
 MonoBehaviour:
   m_ObjectHideFlags: 0
