@@ -10,6 +10,7 @@ public class MyVideoPlayer : MonoBehaviour
     public VideoPlayer videoPlayer;
     public GameObject videoTexture;
     public AudioSource audioSource;
+    public RenderTexture renderTexture;
 
     private bool skipAll = false;
 
@@ -23,8 +24,13 @@ public class MyVideoPlayer : MonoBehaviour
     public async Task PlayVideo(VideoClip videoClip, float volume=1)
     {
         videoPlayer.Stop();
-
         videoPlayer.clip = videoClip;
+
+        // https://forum.unity.com/threads/how-to-properly-fill-a-rendertexture-with-color-when-it-is-created.178410/
+        RenderTexture.active = renderTexture;
+        GL.Clear(true, true, Color.black);
+        RenderTexture.active = null;
+
         // videoPlayer.SetDirectAudioVolume(0, volume);
         audioSource.volume = volume;
         videoPlayer.Play();
