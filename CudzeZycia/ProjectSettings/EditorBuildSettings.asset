@@ -21,6 +21,12 @@ EditorBuildSettings:
     path: Assets/MainGame/Scenes/Maps/Protagonist_House.unity
     guid: 7815435339f1e1d4894011c0ffa791b1
   - enabled: 1
+    path: Assets/MainGame/Scenes/Maps/arcade_interior.unity
+    guid: fd8ef38c9d0bb0b459b78aec81efab6f
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Maps/burdel_interior.unity
+    guid: 312801e7f758cd64abdb681e5c03b3a8
+  - enabled: 1
     path: Assets/MainGame/Scenes/Maps/post_courier-facility.unity
     guid: 288334acf9a7a0d4da3e5a0d14083376
   - enabled: 1
