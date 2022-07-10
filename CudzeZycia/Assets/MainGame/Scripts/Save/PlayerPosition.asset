@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialValue: {x: 0, y: 0, z: 0}
   trans: 0
-  playerRotation: -180
+  playerRotation: 0
   playMapExitAnimation: 0
