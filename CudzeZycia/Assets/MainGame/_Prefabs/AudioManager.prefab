@@ -135,3 +135,12 @@ MonoBehaviour:
     loop: 1
     mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
+  - name: BurdelMusic
+    clip: {fileID: 8300000, guid: 1b922c09f42287a48b13d1c5b629f818, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    source: {fileID: 0}
