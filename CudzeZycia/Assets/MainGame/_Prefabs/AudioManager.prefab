@@ -145,8 +145,17 @@ MonoBehaviour:
     mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: ArcadeMusic
-    clip: {fileID: 8300000, guid: eac051bae9d308c498fd2a083cd4ebf4, type: 3}
-    volume: 0.1
+    clip: {fileID: 8300000, guid: 68cf0f0c9083f8749a57274536d22d00, type: 3}
+    volume: 0.08
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    source: {fileID: 0}
+  - name: KurierMusic
+    clip: {fileID: 8300000, guid: cb310203eb1ac864f8c0a633dd29933f, type: 3}
+    volume: 0.08
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
