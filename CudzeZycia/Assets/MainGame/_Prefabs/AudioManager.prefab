@@ -145,8 +145,8 @@ MonoBehaviour:
     mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
   - name: ArcadeMusic
-    clip: {fileID: 8300000, guid: 68cf0f0c9083f8749a57274536d22d00, type: 3}
-    volume: 0.08
+    clip: {fileID: 8300000, guid: e06494f5698fbd54fac121c426700f82, type: 3}
+    volume: 0.1
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
