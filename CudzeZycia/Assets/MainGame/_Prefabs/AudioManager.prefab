@@ -144,3 +144,12 @@ MonoBehaviour:
     loop: 1
     mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
     source: {fileID: 0}
+  - name: ArcadeMusic
+    clip: {fileID: 8300000, guid: eac051bae9d308c498fd2a083cd4ebf4, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4616812336531282655, guid: 9f631ab6ff6bd914caa87facd2d05db0, type: 2}
+    source: {fileID: 0}

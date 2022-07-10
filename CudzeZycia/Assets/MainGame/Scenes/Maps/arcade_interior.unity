@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d16aac8f5167aa45b73a88bbcd3e819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  songName: MenuTheme
+  songName: ArcadeMusic
   isAmbientOrBackgroundSong: 1
 --- !u!4 &443742150
 Transform:
