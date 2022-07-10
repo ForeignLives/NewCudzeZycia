@@ -2078,9 +2078,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1282122891}
     m_Modifications:
+    - target: {fileID: 249817674, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_text
+      value: "Jako\u015B\u0107"
+      objectReference: {fileID: 0}
+    - target: {fileID: 251981897, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_text
+      value: "Rozdzielczo\u015B\u0107"
+      objectReference: {fileID: 0}
+    - target: {fileID: 400711171, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_text
+      value: "G\u0142o\u015Bno\u015B\u0107"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544829936808908, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_Text
+      value: "Pe\u0142ny ekran"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544829941380684, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544829941380684, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544829941380684, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7044544830137654030, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
       propertyPath: m_Name
       value: SettingsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830137654030, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7044544830137654031, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
       propertyPath: m_Pivot.x
@@ -2165,6 +2197,90 @@ PrefabInstance:
     - target: {fileID: 7044544830137654031, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830217717441, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830217717441, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830217717441, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830451117628, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544830451117628, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831026433872, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831026433872, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831237608580, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831289647051, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Niska
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831289647051, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "\u015Arednia"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831289647051, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Wysoka
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831396258387, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831396258387, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831396258387, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831528469510, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831556152103, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831556152103, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831771327017, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831771327017, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831964094133, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044544831964094133, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c21ccc1cd6de1458232d6716286f53, type: 3}
