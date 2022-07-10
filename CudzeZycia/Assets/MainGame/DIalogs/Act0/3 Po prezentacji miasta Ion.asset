@@ -1012,7 +1012,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 4
   AvatarPosition: 1
-  DialogText: "Ta\u2026. jak wygl\u0105da sytuacja z pozosta\u0142ymi sektorami?"
+  DialogText: "Ta... jak wygl\u0105da sytuacja z pozosta\u0142ymi sektorami?"
 --- !u!114 &2937733787727283273
 MonoBehaviour:
   m_ObjectHideFlags: 0

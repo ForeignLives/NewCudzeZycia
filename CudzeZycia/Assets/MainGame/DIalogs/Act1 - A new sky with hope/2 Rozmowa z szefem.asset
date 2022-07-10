@@ -909,7 +909,7 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Nawet z oddali zauwa\u017Cy\u0142e\u015B, \u017Ce nie by\u0142y w
-    najlepszym stanie. Cz\u0119\u015Bci z nich by\u0142a przemoczona lub pognieciona.\r\n"
+    najlepszym stanie. Cz\u0119\u015Bc z nich by\u0142a przemoczona lub pognieciona.\r\n"
 --- !u!114 &6452442494783104897
 MonoBehaviour:
   m_ObjectHideFlags: 0

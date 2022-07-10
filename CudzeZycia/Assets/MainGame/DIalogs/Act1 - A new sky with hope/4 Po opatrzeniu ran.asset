@@ -421,8 +421,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "W najgorszym wypadku szybciej wyl\u0105dujesz nogami do g\xF3ry, my\u015Blisz
-    sobie."
+  DialogText: "W najgorszym wypadku szybciej szybciej zaczniesz w\u0105cha\u0107
+    kwiatki od do\u0142u, my\u015Blisz sobie."
 --- !u!114 &-3239269874089321544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
   AvatarName: 9
   AvatarPosition: 2
   DialogText: "Nie b\u0119d\u0119 ryzykowa\u0107, \u017Ce dzieciak znowu wpadnie
-    w r\u0119ce zbij\xF3w i uszkodzi towar. \r\n"
+    w r\u0119ce gnojk\xF3w i uszkodzi towar. \r\n"
 --- !u!114 &-2810747911609762828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,7 +1267,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 9
   AvatarPosition: 2
-  DialogText: "Jeszcze dzisiaj macie to dostarczy\u0107"
+  DialogText: "Jeszcze dzisiaj macie to dostarczy\u0107."
 --- !u!114 &7178741099694589341
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2095,7 +2095,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: Output
-        node: {fileID: 7788033032591231743}
+        node: {fileID: 3356270253741389847}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2465,7 +2465,6 @@ MonoBehaviour:
   - {fileID: -545814419294623514}
   - {fileID: -3090603148995842436}
   - {fileID: 3356270253741389847}
-  - {fileID: 7788033032591231743}
   - {fileID: -1632199423038732512}
   - {fileID: 8550220099662546688}
   - {fileID: 6350335332049983899}
@@ -2873,7 +2872,7 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "Setki tysi\u0119cy obraz\xF3w roz\u015Bwietla\u0142y si\u0119 wok\xF3\u0142
-    ciebie, po czym znika\u0142y"
+    ciebie, po czym ponownie zanika\u0142y."
 --- !u!114 &822080087528435602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4193,7 +4192,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 7788033032591231743}
+        node: {fileID: -1632199423038732512}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4727,7 +4726,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Wraz z nim us\u0142ysza\u0142e\u015B nag\u0142y \u015Bwist, po czym
+  DialogText: "Wraz z nim wydoby\u0142 si\u0119 nag\u0142y \u015Bwist, a nast\u0119pnie
     zauwa\u017Cy\u0142e\u015B jak puszka uderza Ricka w g\u0142ow\u0119."
 --- !u!114 &5450300527730788205
 MonoBehaviour:
@@ -5007,7 +5006,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 2
-  DialogText: "Dop\xF3ki jeden z nich, nie roz\u015Bwietli\u0142 si\u0119 nad tob\u0105.\r\n"
+  DialogText: "Dop\xF3ki jeden z nich ca\u0142kowicie roz\u015Bwietli\u0142 si\u0119
+    nad tob\u0105.\r\n"
 --- !u!114 &5787552918102342616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5505,53 +5505,6 @@ MonoBehaviour:
   AvatarName: 1
   AvatarPosition: 1
   DialogText: "Kim oni w og\xF3le byli? "
---- !u!114 &7788033032591231743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
-  m_Name: Simple Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 4984, y: 3656}
-  ports:
-    keys:
-    - Output
-    - input
-    values:
-    - _fieldName: Output
-      _node: {fileID: 7788033032591231743}
-      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: -1632199423038732512}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: input
-      _node: {fileID: 7788033032591231743}
-      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: Output
-        node: {fileID: 3356270253741389847}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  AvatarName: 3
-  AvatarPosition: 2
-  DialogText: "Kobieta na chwil\u0119 zatrzymuje si\u0119 w miejscu i spogl\u0105da
-    na ciebie, widocznie pr\xF3buj\u0105c zrozumie\u0107 co masz na my\u015Bli. \r\n"
 --- !u!114 &7845826809585527316
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3288, y: 184}
+  position: {x: 3528, y: -184}
   ports:
     keys:
     - Output
@@ -826,7 +826,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: Output
-        node: {fileID: 7529874782198850285}
+        node: {fileID: 9117517368402018341}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -834,7 +834,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 1
   AvatarPosition: 1
-  DialogText: "\u2026.Co w niej w og\xF3le jest? "
+  DialogText: "Co w niej w og\xF3le jest?! "
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,6 +875,7 @@ MonoBehaviour:
   - {fileID: 7898497723539805383}
   - {fileID: -2575612752834316771}
   - {fileID: -1627989488766836229}
+  - {fileID: 9117517368402018341}
 --- !u!114 &1554761841433305601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,7 +889,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3832, y: 200}
+  position: {x: 3864, y: 184}
   ports:
     keys:
     - Output
@@ -1059,7 +1060,7 @@ MonoBehaviour:
   m_Name: Simple Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3032, y: 184}
+  position: {x: 2968, y: -184}
   ports:
     keys:
     - Output
@@ -1071,7 +1072,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -106243756284291001}
+        node: {fileID: 9117517368402018341}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1279,3 +1280,49 @@ MonoBehaviour:
   AvatarPosition: 2
   DialogText: "Ca\u0142y dzie\u0144 l\u0105dowa\u0142e\u015B z deszczu pod rynn\u0119
     i czu\u0142e\u015B jak zbli\u017Casz si\u0119 do granic mentalnej wytrwa\u0142o\u015Bci."
+--- !u!114 &9117517368402018341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1c41f85fb2761409eecde353f3f665, type: 3}
+  m_Name: Simple Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3240, y: -72}
+  ports:
+    keys:
+    - Output
+    - input
+    values:
+    - _fieldName: Output
+      _node: {fileID: 9117517368402018341}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -106243756284291001}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 9117517368402018341}
+      _typeQualifiedName: Scripts.DialogSystem.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 7529874782198850285}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AvatarName: 1
+  AvatarPosition: 1
+  DialogText: ...

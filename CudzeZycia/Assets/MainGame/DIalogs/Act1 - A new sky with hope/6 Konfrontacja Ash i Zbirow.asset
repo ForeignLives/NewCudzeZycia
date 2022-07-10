@@ -185,8 +185,8 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 5
   AvatarPosition: 2
-  DialogText: "Chcesz t\u0105 paczk\u0119? Dam ci j\u0105, je\u015Bli si\u0119 do
-    mnie przy\u0142\u0105czysz."
+  DialogText: "Chcesz t\u0105 paczk\u0119? Dam ci j\u0105, je\u015Bli tylko si\u0119
+    do mnie przy\u0142\u0105czysz."
 --- !u!114 &-7485631321363437556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
   AvatarName: 7
   AvatarPosition: 2
   DialogText: "Sk\u0105d wiesz, \u017Ce ju\u017C nie \u015Bwiadczy takich us\u0142ug
-    na tej beznadziejnej-\r\n"
+    na tej beznadziejnej kurier-...\n"
 --- !u!114 &-6260777105563738617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,8 +1113,9 @@ MonoBehaviour:
   AvatarName: 3
   AvatarPosition: 2
   DialogText: "M\u0119\u017Cczy\u017Ani wpadli w \u015Bmiech, za\u015B sama Ash\u2026
-    obr\xF3ci\u0142a g\u0142ow\u0119 w twoim kierunku, a na jej twarzy maluje si\u0119
-    swego rodzaju zawstydzenie po\u0142\u0105czone z ekspresj\u0105 gniewu. \r\n"
+    obr\xF3ci\u0142a g\u0142ow\u0119 w twoim kierunku, a na jej twarzy malowa\u0142o
+    si\u0119 swego rodzaju zawstydzenie po\u0142\u0105czone z ekspresj\u0105 gniewu.
+    \r\n"
 --- !u!114 &665448060918442950
 MonoBehaviour:
   m_ObjectHideFlags: 0

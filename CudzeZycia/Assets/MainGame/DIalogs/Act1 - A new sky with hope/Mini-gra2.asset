@@ -1252,7 +1252,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 1
-  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uuderzasz
+  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uderzasz
     go kilka razy w twarz, str\u0105caj\u0105c mu jego p\xF3\u0142mask\u0119 na pod\u0142og\u0119.\n"
 --- !u!114 &-7757617382743448023
 MonoBehaviour:
@@ -3138,7 +3138,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Kurwa Sky! Maj\u0105 bro\u0144 paln\u0105! "
 --- !u!114 &-5363328496318247318
@@ -3677,7 +3677,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Kurwa Sky! Maj\u0105 bro\u0144 paln\u0105! "
 --- !u!114 &-4860729310673226262
@@ -4609,7 +4609,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 1
-  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uuderzasz
+  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uderzasz
     go kilka razy w twarz, str\u0105caj\u0105c mu jego p\xF3\u0142mask\u0119 na pod\u0142og\u0119."
 --- !u!114 &-3927984543539670225
 MonoBehaviour:
@@ -4656,7 +4656,7 @@ MonoBehaviour:
       _dynamic: 0
   AvatarName: 3
   AvatarPosition: 1
-  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uuderzasz
+  DialogText: "\u0141apiesz go za ko\u0142nierz koszuli i wyprowadzasz cios. Uderzasz
     go kilka razy w twarz, str\u0105caj\u0105c mu jego p\xF3\u0142mask\u0119 na pod\u0142og\u0119."
 --- !u!114 &-3839428494432955648
 MonoBehaviour:
@@ -4960,7 +4960,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Kurwa Sky! Maj\u0105 bro\u0144 paln\u0105! "
 --- !u!114 &-3505948808267059810
@@ -5544,7 +5544,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Posra\u0142o ci\u0119 ju\u017C do reszty?"
 --- !u!114 &-3068831665668411170
@@ -7252,7 +7252,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Posra\u0142o ci\u0119 ju\u017C do reszty?"
 --- !u!114 &-874522189377184626
@@ -9513,7 +9513,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Kurwa Sky! Maj\u0105 bro\u0144 paln\u0105! "
 --- !u!114 &1423463551216094774
@@ -10004,7 +10004,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Posra\u0142o ci\u0119 ju\u017C do reszty?"
 --- !u!114 &1701993905147986793
@@ -11429,7 +11429,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  AvatarName: 14
+  AvatarName: 8
   AvatarPosition: 2
   DialogText: "Posra\u0142o ci\u0119 ju\u017C do reszty?"
 --- !u!114 &3314550726729892617
