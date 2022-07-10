@@ -5893,11 +5893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 466345991873840556, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: playerPosition.x
-      value: 177.258
+      value: 25.15
       objectReference: {fileID: 0}
     - target: {fileID: 466345991873840556, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: playerPosition.z
-      value: 197.2122
+      value: 55.86
       objectReference: {fileID: 0}
     - target: {fileID: 466345991873840559, guid: 1256ef3ba315970458c5788b2194b488, type: 3}
       propertyPath: m_RootOrder
