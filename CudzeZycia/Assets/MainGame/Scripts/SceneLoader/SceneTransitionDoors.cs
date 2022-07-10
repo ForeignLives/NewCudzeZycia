@@ -11,6 +11,7 @@ public class SceneTransitionDoors : MonoBehaviour
 
     int EClick = 0;
     private DoorOpenCanvasController uiController;
+    private bool isInTrigger = false;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class SceneTransitionDoors : MonoBehaviour
         if (other.CompareTag("Collider"))
         {
             uiController.ShowDoorOpenUI();
+            isInTrigger = true;
         }
     }
 
@@ -41,6 +43,16 @@ public class SceneTransitionDoors : MonoBehaviour
     {
         if (other.CompareTag("Collider"))
         {
+            uiController.HideDoorOpenUI();
+            isInTrigger = false;
+        }
+    }
+
+    public void OnDisable()
+    {
+        if (isInTrigger)
+        {
+            isInTrigger = false;
             uiController.HideDoorOpenUI();
         }
     }
