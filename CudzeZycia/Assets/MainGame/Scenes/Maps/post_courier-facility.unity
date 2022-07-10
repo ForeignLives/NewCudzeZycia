@@ -1276,7 +1276,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &328545413
 PrefabInstance:
@@ -1299,7 +1299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5756165657125262613, guid: d82e99f837e54ba4e98e5390f1437e33, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5756165657125262613, guid: d82e99f837e54ba4e98e5390f1437e33, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3358,6 +3358,19 @@ MonoBehaviour:
     playerPosition: {x: 0, y: 0, z: 0}
     playerStorage: {fileID: 0}
     showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
+    newObjective: 'TODO: uruchomienie mini gry kurierskiej'
+    targetGameObject: {fileID: 624462838}
+    newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: baza_zbirow_interior
+    playerPosition: {x: -1.169747, y: 0, z: 5.47901}
+    playerStorage: {fileID: 11400000, guid: 9c20ced4ab7072c49ad62b4ec67f7298, type: 2}
+    showGameObject: {fileID: 0}
   - ContentType: 1
     videoClip: {fileID: 0}
     videoVolume: 1
@@ -4493,7 +4506,7 @@ Transform:
   - {fileID: 515703089}
   - {fileID: 624462839}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1045965301 stripped
 Transform:
@@ -4812,6 +4825,19 @@ MonoBehaviour:
     newObjective: Poszukaj apteczki
     targetGameObject: {fileID: 2080344495}
     newActiveState: 1
+    targetUniqueId: 
+    newTargetState: 0
+    sceneToLoad: 
+    playerPosition: {x: 0, y: 0, z: 0}
+    playerStorage: {fileID: 0}
+    showGameObject: {fileID: 0}
+  - ContentType: 3
+    videoClip: {fileID: 0}
+    videoVolume: 1
+    dialogGraph: {fileID: 11400000, guid: 90fd2fe9810a2aa49ba4452113d1c935, type: 2}
+    newObjective: Poszukaj apteczki
+    targetGameObject: {fileID: 578275015}
+    newActiveState: 0
     targetUniqueId: 
     newTargetState: 0
     sceneToLoad: 
@@ -6843,7 +6869,7 @@ Transform:
   - {fileID: 550237094}
   - {fileID: 157237802}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1821903030
 PrefabInstance:
