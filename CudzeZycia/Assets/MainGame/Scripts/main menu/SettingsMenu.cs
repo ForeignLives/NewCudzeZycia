@@ -12,15 +12,6 @@ public class SettingsMenu : MonoBehaviour
 
     private Resolution[] resolutions;
     private AudioManager audioManager;
-    private List<string> resolutionsWhitelist = new List<string>{
-       "426x240",
-       "640x360",
-       "854x480",
-       "1280x720",
-       "1920x1080",
-       "2560x1440",
-       "3840x2160",
-    };
 
     void Start()
     {
@@ -34,17 +25,12 @@ public class SettingsMenu : MonoBehaviour
         int currentResolutionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
-            // TODO: remove weird resolutions from there so players cant choice freezer screen resolution lol - @GorlikItsMe
             var res = resolutions[i];
-            if (resolutionsWhitelist.Contains(res.width + "x" + res.height))
+            options.Add(res.width + " x " + res.height + " ("+res.refreshRate+"Hz)");
+            if (Screen.currentResolution.Equals(res))
             {
-                options.Add(res.width + " x " + res.height + " ("+res.refreshRate+"Hz)");
-                if (Screen.currentResolution.Equals(res))
-                {
-                    currentResolutionIndex = i;
-                }
+                currentResolutionIndex = i;
             }
-            
         }
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
@@ -76,6 +62,7 @@ public class SettingsMenu : MonoBehaviour
     public void SetResolution(int resId)
     {
         var res = resolutions[resId];
+        Debug.Log("Ustaw rozdzielczoœæ na " + res.width + " x " + res.height + "  resId: " + resId);
         Screen.SetResolution(res.width, res.height, Screen.fullScreen);
     }
 }
