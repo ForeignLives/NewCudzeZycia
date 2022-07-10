@@ -19,6 +19,7 @@ public class AllSongNames : MonoBehaviour
             "MinigamePixel",
             "Cisza",
             "BurdelMusic",
+            "ArcadeMusic",
         };
         return x.ToArray();
     }
