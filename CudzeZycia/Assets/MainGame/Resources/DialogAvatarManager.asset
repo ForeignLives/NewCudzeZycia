@@ -57,13 +57,13 @@ MonoBehaviour:
     Name: Sky
   - Type: 9
     Avatar: {fileID: 21300000, guid: 565ef999e4691344ea05cc373e57158e, type: 3}
-    Name: "Szef Kurier\xF3w"
+    Name: Szef
   - Type: 5
     Avatar: {fileID: 21300000, guid: fddccc4143d95004491a42f0585a032a, type: 3}
-    Name: Zbir Rick
+    Name: Rick
   - Type: 7
     Avatar: {fileID: 21300000, guid: 983c0e071af894f48989cb5273601510, type: 3}
-    Name: Zbir Jack
+    Name: Jack
   - Type: 6
     Avatar: {fileID: 21300000, guid: 5ac650b2f8084e948b041c5546852ad4, type: 3}
-    Name: Zbir Paul
+    Name: Paul
